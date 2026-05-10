@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import DownloadAppButton from "@/components/DownloadAppButton";
 
 const ArrowRight = ({ className = "arrow" }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -25,13 +27,13 @@ export default function HomePage() {
                 every package.
               </p>
               <div className="hero-cta-row">
-                <Link href="/" className="btn btn-primary">
+                <DownloadAppButton className="btn btn-primary">
                   Book Delivery
                   <ArrowRight />
-                </Link>
-                <Link href="/driver" className="btn btn-secondary">
+                </DownloadAppButton>
+                <DownloadAppButton className="btn btn-secondary">
                   Become a Driver
-                </Link>
+                </DownloadAppButton>
               </div>
               <div className="hero-stats">
                 <div className="hero-stat">
@@ -55,68 +57,14 @@ export default function HomePage() {
               </div>
             </div>
             <div className="hero-art">
-              <div className="hero-art-bg" />
               <div className="map-card">
-                <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-                      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(37,99,235,0.08)" strokeWidth="1" />
-                    </pattern>
-                    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1">
-                      <stop offset="0%" stopColor="#2563EB" />
-                      <stop offset="100%" stopColor="#60A5FA" />
-                    </linearGradient>
-                  </defs>
-                  <rect width="600" height="600" fill="url(#grid)" />
-                  <path d="M0 200 Q200 180, 320 220 T600 280" stroke="rgba(37,99,235,0.18)" strokeWidth="22" fill="none" strokeLinecap="round" />
-                  <path d="M50 0 Q90 200, 200 350 T420 600" stroke="rgba(37,99,235,0.12)" strokeWidth="18" fill="none" strokeLinecap="round" />
-                  <path d="M150 100 Q300 250, 500 200" stroke="rgba(15,23,42,0.06)" strokeWidth="14" fill="none" strokeLinecap="round" />
-                  <path d="M100 470 Q220 380, 280 320 T520 140" stroke="url(#route)" strokeWidth="5" fill="none" strokeLinecap="round" strokeDasharray="4 6" />
-                  <circle cx="100" cy="470" r="14" fill="white" stroke="#2563EB" strokeWidth="3" />
-                  <circle cx="100" cy="470" r="6" fill="#2563EB" />
-                  <circle cx="320" cy="280" r="22" fill="#2563EB" opacity="0.18" />
-                  <circle cx="320" cy="280" r="14" fill="#2563EB" />
-                  <path d="M313 280 L317 285 L327 273" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="520" cy="125" r="14" fill="#0F172A" />
-                  <circle cx="520" cy="125" r="5" fill="white" />
-                  <rect x="380" y="380" width="50" height="80" rx="6" fill="rgba(15,23,42,0.08)" />
-                  <rect x="440" y="350" width="40" height="110" rx="6" fill="rgba(15,23,42,0.08)" />
-                  <rect x="100" y="100" width="60" height="100" rx="6" fill="rgba(15,23,42,0.06)" />
-                </svg>
-              </div>
-              <div className="float-card f1">
-                <div className="float-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 7h14l-1 12H6L5 7zM9 7V5a3 3 0 016 0v2" />
-                  </svg>
-                </div>
-                <div>
-                  <div className="label">Package</div>
-                  <div className="val">12kg &middot; Electronics</div>
-                </div>
-              </div>
-              <div className="float-card f2">
-                <div className="float-icon green">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12l5 5L20 7" />
-                  </svg>
-                </div>
-                <div>
-                  <div className="label">Delivered</div>
-                  <div className="val">12 min ago</div>
-                </div>
-              </div>
-              <div className="float-card f3">
-                <div className="float-icon navy">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 6v6l4 2" />
-                  </svg>
-                </div>
-                <div>
-                  <div className="label">ETA</div>
-                  <div className="val">23 minutes</div>
-                </div>
+                <Image
+                  src="/hero-frame.png"
+                  alt="Delivery tracking preview"
+                  fill
+                  className="map-image"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
               </div>
             </div>
           </div>
@@ -140,11 +88,6 @@ export default function HomePage() {
           </div>
           <div className="audience-grid">
             <div className="aud-card">
-              <div className="aud-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M3 21V8l9-5 9 5v13H3zM9 21v-6h6v6" />
-                </svg>
-              </div>
               <div>
                 <span className="num">/01</span>
                 <h3>Business</h3>
@@ -154,19 +97,10 @@ export default function HomePage() {
                 </p>
               </div>
               <Link href="/business" className="arrow-link">
-                Explore Business{" "}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                Explore Business
               </Link>
             </div>
             <div className="aud-card">
-              <div className="aud-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="12" cy="8" r="4" />
-                  <path d="M4 21a8 8 0 0116 0" />
-                </svg>
-              </div>
               <div>
                 <span className="num">/02</span>
                 <h3>Personal</h3>
@@ -176,18 +110,10 @@ export default function HomePage() {
                 </p>
               </div>
               <Link href="/" className="arrow-link">
-                Send a parcel{" "}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                Send a parcel
               </Link>
             </div>
             <div className="aud-card">
-              <div className="aud-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M3 17h2l2-7h10l2 7h2M5 17a2 2 0 104 0M15 17a2 2 0 104 0" />
-                </svg>
-              </div>
               <div>
                 <span className="num">/03</span>
                 <h3>Driver</h3>
@@ -197,10 +123,7 @@ export default function HomePage() {
                 </p>
               </div>
               <Link href="/driver" className="arrow-link">
-                Drive with us{" "}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                Drive with us
               </Link>
             </div>
           </div>
@@ -288,10 +211,7 @@ export default function HomePage() {
                 <li>Cashless secure payments</li>
               </ul>
               <Link href="/" className="mode-cta">
-                Choose Regular{" "}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                Choose Regular
               </Link>
             </div>
             <div className="mode-card featured">
@@ -307,10 +227,7 @@ export default function HomePage() {
                 <li>Premium handling &amp; reporting</li>
               </ul>
               <Link href="/" className="mode-cta">
-                Choose Priority{" "}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                Choose Priority
               </Link>
             </div>
             <div className="mode-card">
@@ -324,10 +241,7 @@ export default function HomePage() {
                 <li>Perfect for non-urgent items</li>
               </ul>
               <Link href="/" className="mode-cta">
-                Choose Pooling{" "}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                Choose Pooling
               </Link>
             </div>
           </div>
@@ -344,20 +258,11 @@ export default function HomePage() {
                 A vehicle for <em>every</em> package.
               </h2>
             </div>
-            <Link href="/" className="btn btn-ghost-line">
-              View all vehicles
-              <ArrowRight />
-            </Link>
           </div>
           <div className="veh-grid">
             <div className="veh-card">
               <div className="veh-icon">
-                <svg width="42" height="42" viewBox="0 0 64 64" fill="none">
-                  <circle cx="16" cy="46" r="8" fill="none" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="48" cy="46" r="8" fill="none" stroke="#0F172A" strokeWidth="2.5" />
-                  <path d="M16 46 L26 28 L40 28 L48 46" stroke="#2563EB" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                  <path d="M40 28 L34 18" stroke="#2563EB" strokeWidth="2.5" strokeLinecap="round" />
-                </svg>
+                <Image src="/veh-icon-1.png" alt="Bike icon" width={42} height={42} className="veh-icon-image" />
               </div>
               <div>
                 <h4>Bike</h4>
@@ -367,12 +272,7 @@ export default function HomePage() {
             </div>
             <div className="veh-card">
               <div className="veh-icon">
-                <svg width="42" height="42" viewBox="0 0 64 64" fill="none">
-                  <circle cx="14" cy="48" r="7" fill="none" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="50" cy="48" r="7" fill="none" stroke="#0F172A" strokeWidth="2.5" />
-                  <path d="M14 48 L24 30 L40 30 L46 22 L54 22" stroke="#2563EB" strokeWidth="2.5" fill="none" strokeLinejoin="round" strokeLinecap="round" />
-                  <rect x="22" y="34" width="14" height="10" rx="2" fill="#60A5FA" opacity="0.4" />
-                </svg>
+                <Image src="/veh-icon-2.png" alt="Scooter icon" width={42} height={42} className="veh-icon-image" />
               </div>
               <div>
                 <h4>Scooter</h4>
@@ -382,12 +282,7 @@ export default function HomePage() {
             </div>
             <div className="veh-card">
               <div className="veh-icon">
-                <svg width="42" height="42" viewBox="0 0 64 64" fill="none">
-                  <rect x="6" y="22" width="44" height="22" rx="4" fill="#60A5FA" opacity="0.3" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="16" cy="48" r="6" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="42" cy="48" r="6" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                  <path d="M22 22 V12 H44 L52 22" stroke="#0F172A" strokeWidth="2.5" fill="none" strokeLinejoin="round" />
-                </svg>
+                <Image src="/veh-icon-3.png" alt="Mini van icon" width={42} height={42} className="veh-icon-image" />
               </div>
               <div>
                 <h4>Mini Van</h4>
@@ -397,12 +292,7 @@ export default function HomePage() {
             </div>
             <div className="veh-card">
               <div className="veh-icon">
-                <svg width="42" height="42" viewBox="0 0 64 64" fill="none">
-                  <path d="M4 28 H22 L26 18 H38 V44 H4 Z" fill="white" stroke="#0F172A" strokeWidth="2.5" strokeLinejoin="round" />
-                  <rect x="38" y="20" width="22" height="24" rx="3" fill="#60A5FA" opacity="0.3" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="14" cy="48" r="5.5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="48" cy="48" r="5.5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                </svg>
+                <Image src="/veh-icon-4.png" alt="Pickup truck icon" width={42} height={42} className="veh-icon-image" />
               </div>
               <div>
                 <h4>Pickup Truck</h4>
@@ -412,12 +302,7 @@ export default function HomePage() {
             </div>
             <div className="veh-card">
               <div className="veh-icon">
-                <svg width="42" height="42" viewBox="0 0 64 64" fill="none">
-                  <rect x="4" y="18" width="36" height="28" rx="3" fill="#60A5FA" opacity="0.4" stroke="#0F172A" strokeWidth="2.5" />
-                  <path d="M40 26 H54 L60 34 V46 H40" fill="white" stroke="#0F172A" strokeWidth="2.5" strokeLinejoin="round" />
-                  <circle cx="14" cy="50" r="5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="48" cy="50" r="5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                </svg>
+                <Image src="/veh-icon-5.png" alt="Tempo icon" width={42} height={42} className="veh-icon-image" />
               </div>
               <div>
                 <h4>Tempo</h4>
@@ -427,68 +312,12 @@ export default function HomePage() {
             </div>
             <div className="veh-card">
               <div className="veh-icon">
-                <svg width="42" height="42" viewBox="0 0 64 64" fill="none">
-                  <rect x="2" y="14" width="42" height="32" rx="3" fill="#0F172A" />
-                  <rect x="6" y="18" width="34" height="20" rx="2" fill="#60A5FA" opacity="0.4" />
-                  <path d="M44 22 H56 L62 32 V46 H44" fill="white" stroke="#0F172A" strokeWidth="2.5" strokeLinejoin="round" />
-                  <circle cx="14" cy="50" r="5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="32" cy="50" r="5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                  <circle cx="50" cy="50" r="5" fill="white" stroke="#0F172A" strokeWidth="2.5" />
-                </svg>
+                <Image src="/veh-icon-6.png" alt="Large truck icon" width={42} height={42} className="veh-icon-image" />
               </div>
               <div>
                 <h4>Large Truck</h4>
                 <p>Long-haul, heavy logistics</p>
                 <span className="veh-cap">Up to 5 ton</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PROMO */}
-      <section className="promo">
-        <div className="wrap">
-          <div className="promo-card">
-            <div className="promo-content">
-              <span className="promo-badge">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M12 2l2.4 7.4H22l-6.2 4.5L18.2 22 12 17.4 5.8 22l2.4-8.1L2 9.4h7.6z" />
-                </svg>{" "}
-                Limited Offer
-              </span>
-              <h2>
-                <em>20% off</em>
-                <br />
-                your first delivery.
-              </h2>
-              <p>
-                Welcome gift from CarryOn. Use the code at checkout — works on
-                any vehicle, any mode, anywhere we operate.
-              </p>
-              <div className="promo-cta-row">
-                <div className="promo-code">CARRYFIRST</div>
-                <Link href="/" className="btn btn-primary" style={{ background: "white", color: "var(--navy)", boxShadow: "0 8px 24px rgba(0,0,0,.2)" }}>
-                  Deliver Now
-                  <ArrowRight />
-                </Link>
-              </div>
-            </div>
-            <div className="promo-visual">
-              <div className="pkg">
-                <svg width="60%" viewBox="0 0 200 200" fill="none">
-                  <path d="M40 80 L100 50 L160 80 V160 L100 190 L40 160 Z" fill="white" opacity="0.1" stroke="rgba(255,255,255,.5)" strokeWidth="2" />
-                  <path d="M40 80 L100 110 L160 80" stroke="rgba(255,255,255,.5)" strokeWidth="2" fill="none" />
-                  <path d="M100 110 V190" stroke="rgba(255,255,255,.5)" strokeWidth="2" />
-                  <rect x="86" y="40" width="28" height="14" rx="2" fill="#FCD34D" />
-                  <rect x="86" y="46" width="28" height="2" fill="#F59E0B" opacity="0.5" />
-                </svg>
-              </div>
-              <div className="discount-stamp">
-                <div>
-                  <div className="pct">20%</div>
-                  <div className="off">OFF</div>
-                </div>
               </div>
             </div>
           </div>
@@ -531,7 +360,8 @@ export default function HomePage() {
               <div className="app-store-row">
                 <Link href="/" className="store-btn">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.5 12.5c0-2.6 2.1-3.8 2.2-3.9-1.2-1.7-3-2-3.7-2-1.6-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3-.5 7.6 1.2 10.1.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5.7-1 1-2 1-2.1 0-.1-2.5-1-2.5-3.6z" />
+                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
+                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
                   </svg>
                   <div>
                     <small>Download on the</small>
@@ -569,7 +399,8 @@ export default function HomePage() {
               <div className="app-store-row">
                 <Link href="/" className="store-btn">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.5 12.5c0-2.6 2.1-3.8 2.2-3.9-1.2-1.7-3-2-3.7-2-1.6-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3-.5 7.6 1.2 10.1.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5.7-1 1-2 1-2.1 0-.1-2.5-1-2.5-3.6z" />
+                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
+                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
                   </svg>
                   <div>
                     <small>Download on the</small>
@@ -605,27 +436,27 @@ export default function HomePage() {
           </div>
           <div className="steps">
             <div className="step active">
-              <div className="step-num">i</div>
+              <div className="step-num">1</div>
               <h4>Enter pickup &amp; drop</h4>
               <p>Tell us where it&apos;s going.</p>
             </div>
             <div className="step">
-              <div className="step-num">ii</div>
+              <div className="step-num">2</div>
               <h4>Select delivery mode</h4>
               <p>Priority, regular or pooled.</p>
             </div>
             <div className="step">
-              <div className="step-num">iii</div>
+              <div className="step-num">3</div>
               <h4>Choose vehicle</h4>
               <p>The right ride for your load.</p>
             </div>
             <div className="step">
-              <div className="step-num">iv</div>
+              <div className="step-num">4</div>
               <h4>Track live</h4>
               <p>Watch your package move.</p>
             </div>
             <div className="step">
-              <div className="step-num">v</div>
+              <div className="step-num">5</div>
               <h4>Delivery completed</h4>
               <p>Proof of delivery in seconds.</p>
             </div>
@@ -695,7 +526,7 @@ export default function HomePage() {
       </section>
 
       {/* DOWNLOAD CTA */}
-      <section className="download-cta">
+      <section id="download-app" className="download-cta">
         <div className="wrap">
           <div className="dl-card">
             <div className="dl-text">
@@ -712,7 +543,8 @@ export default function HomePage() {
               <div className="dl-actions">
                 <Link href="/" className="btn btn-dark">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.5 12.5c0-2.6 2.1-3.8 2.2-3.9-1.2-1.7-3-2-3.7-2-1.6-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3-.5 7.6 1.2 10.1.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5.7-1 1-2 1-2.1 0-.1-2.5-1-2.5-3.6z" />
+                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
+                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
                   </svg>
                   App Store
                 </Link>
@@ -726,27 +558,14 @@ export default function HomePage() {
               </div>
             </div>
             <div className="phone-mock">
-              <div className="phone-screen">
-                <svg width="100%" height="100%" viewBox="0 0 240 480" fill="none">
-                  <rect x="0" y="0" width="240" height="50" fill="white" rx="0" />
-                  <text x="20" y="32" fontFamily="serif" fontSize="18" fontStyle="italic" fill="#0F172A">CarryOn</text>
-                  <circle cx="220" cy="25" r="10" fill="#EFF6FF" />
-                  <rect x="20" y="70" width="200" height="120" rx="16" fill="#EFF6FF" />
-                  <path d="M40 130 Q90 100, 140 130 T200 150" stroke="#2563EB" strokeWidth="2.5" fill="none" strokeDasharray="3 3" />
-                  <circle cx="40" cy="130" r="6" fill="#2563EB" />
-                  <circle cx="200" cy="150" r="6" fill="#0F172A" />
-                  <rect x="20" y="210" width="200" height="56" rx="14" fill="white" stroke="#E2E8F0" />
-                  <text x="36" y="234" fontSize="10" fill="#64748B" letterSpacing="1">PICKUP</text>
-                  <text x="36" y="252" fontSize="11" fontWeight="600" fill="#0F172A">Andheri West</text>
-                  <rect x="20" y="278" width="200" height="56" rx="14" fill="white" stroke="#E2E8F0" />
-                  <text x="36" y="302" fontSize="10" fill="#64748B" letterSpacing="1">DROP-OFF</text>
-                  <text x="36" y="320" fontSize="11" fontWeight="600" fill="#0F172A">Lower Parel</text>
-                  <rect x="20" y="350" width="200" height="44" rx="22" fill="#2563EB" />
-                  <text x="120" y="376" fontSize="13" fontWeight="600" fill="white" textAnchor="middle">Book Delivery</text>
-                  <rect x="20" y="410" width="60" height="40" rx="12" fill="#F1F5F9" />
-                  <rect x="90" y="410" width="60" height="40" rx="12" fill="#F1F5F9" />
-                  <rect x="160" y="410" width="60" height="40" rx="12" fill="#F1F5F9" />
-                </svg>
+              <div className="phone-screen phone-screen--image">
+                <Image
+                  src="/mockup-screen.png"
+                  alt="CarryOn app mockup"
+                  fill
+                  className="phone-screen-image"
+                  sizes="(max-width: 768px) 260px, 280px"
+                />
               </div>
             </div>
           </div>

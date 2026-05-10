@@ -1,0 +1,653 @@
+0 verbose cli /Users/poojithagobburu/.nvm/versions/node/v22.19.0/bin/node /Users/poojithagobburu/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/poojithagobburu/carryon_website/carryon-next/.npmrc
+5 silly config load:file:/Users/poojithagobburu/.npmrc
+6 silly config load:file:/Users/poojithagobburu/.nvm/versions/node/v22.19.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--force"
+9 verbose logfile logs-max:10 dir:/Users/poojithagobburu/carryon_website/carryon-next/.npm-cache/_logs/2026-05-09T16_29_23_208Z-
+10 verbose logfile /Users/poojithagobburu/carryon_website/carryon-next/.npm-cache/_logs/2026-05-09T16_29_23_208Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ajv'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/axe-core'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/baseline-browser-mapping'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/brace-expansion'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/browserslist'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/call-bind'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/caniuse-lite'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/electron-to-chromium'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/enhanced-resolve'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-abstract'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-iterator-helpers'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-config-next'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-import-resolver-node'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-plugin-react-hooks'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/flatted'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/get-tsconfig'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/hasown'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-core-module'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jiti'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-android-arm64'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-arm64'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-x64'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-freebsd-x64'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm-gnueabihf'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-gnu'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-musl'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-gnu'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-musl'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-arm64-msvc'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-x64-msvc'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/nanoid'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/next'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/node-releases'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/picomatch'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/postcss'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/safe-array-concat'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/side-channel-list'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tailwindcss'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tapable'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ts-api-utils'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript-eslint'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/zod'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/compat-data'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/helpers'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/parser'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/core'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/wasi-threads'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/runtime'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/core'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/node'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/types'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-darwin-x64'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-darwin-x64'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm64'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-ppc64'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-riscv64'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-s390x'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-x64'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-x64'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm64'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-ppc64'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-riscv64'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-s390x'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-x64'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-arm64'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-x64'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-wasm32'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-arm64'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-ia32'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-x64'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/env'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/eslint-plugin-next'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-arm64'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-x64'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-gnu'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-musl'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-gnu'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-musl'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-arm64-msvc'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-x64-msvc'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/node'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-android-arm64'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-arm64'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-x64'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-freebsd-x64'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-musl'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-wasm32-wasi'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/postcss'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tybys/wasm-util'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/estree'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/node'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/eslint-plugin'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/parser'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/project-service'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/scope-manager'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/tsconfig-utils'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/type-utils'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/types'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/typescript-estree'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/utils'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/visitor-keys'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm-eabi'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm64'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-darwin-x64'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-freebsd-x64'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-musl'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-wasm32-wasi'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint',
+146 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/eslint'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-bun-module/node_modules/semver'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/acorn',
+148 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/acorn'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jsesc',
+149 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/jsesc'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/loose-envify',
+150 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/loose-envify'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/js-yaml',
+151 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/js-yaml'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/json5',
+152 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/json5'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/sharp/node_modules/semver'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/json5',
+154 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.bin/json5'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript',
+155 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsc',
+155 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsserver'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/napi-postinstall',
+156 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/napi-postinstall'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/resolve',
+157 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/resolve'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/semver',
+158 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/semver'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/update-browserslist-db',
+159 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/update-browserslist-db'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/which',
+160 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/node-which'
+160 silly reify ]
+161 silly reify moves {
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ajv': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.ajv-H0g1x6cw',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/axe-core': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.axe-core-6toT8ypO',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/baseline-browser-mapping': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.baseline-browser-mapping-lOMhTJPJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/brace-expansion': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.brace-expansion-PzrjQTtn',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/browserslist': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.browserslist-WYP61L9d',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/call-bind': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.call-bind-Kon36oNY',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/caniuse-lite': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.caniuse-lite-NXVwnMVQ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/electron-to-chromium': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.electron-to-chromium-HwTWPHzx',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/enhanced-resolve': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.enhanced-resolve-O70QIP8j',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-abstract': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.es-abstract-ZR79x9L5',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-iterator-helpers': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.es-iterator-helpers-inWZPIn4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-config-next': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-config-next-Emmso9fs',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-import-resolver-node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-import-resolver-node-zXVuso4P',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-plugin-react-hooks': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-plugin-react-hooks-G9hpHkT8',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/flatted': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.flatted-disvAANW',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/get-tsconfig': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.get-tsconfig-3ajuxPgz',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/hasown': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.hasown-GKvu2QnG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-core-module': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.is-core-module-ptub9YTI',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jiti': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.jiti-m3UglsW0',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-android-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-android-arm64-3EEPcB4k',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-npvciJHc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-darwin-arm64-tgEkarmZ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-darwin-x64-940zELPE',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-freebsd-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-freebsd-x64-9WBEPqcz',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm-gnueabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-arm-gnueabihf-oyZKDPcg',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-arm64-gnu-N4HTyONC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-arm64-musl-6csm0TxD',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-x64-gnu-H83EP0k3',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-x64-musl-LT4QA0SB',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-win32-arm64-msvc-wqgPXLk6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-win32-x64-msvc-WsvOJBhv',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/nanoid': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.nanoid-r10dH3xq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/next': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.next-ndweuTo5',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/node-releases': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.node-releases-lZDhZUzp',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/picomatch': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.picomatch-eHvmcaGL',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/postcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.postcss-vpzaxVsZ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/safe-array-concat': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.safe-array-concat-6BsZsILT',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/side-channel-list': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.side-channel-list-i9jIDaPS',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tailwindcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tailwindcss-0EB6xgjc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tapable': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tapable-HnEmVBQI',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tinyglobby-wb5U7HYA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ts-api-utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.ts-api-utils-LyXABcyc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript-eslint': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.typescript-eslint-r2sPL5Cv',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/zod': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.zod-vL9WQOEN',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/compat-data': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/.compat-data-14zTzcCG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/helpers': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/.helpers-wb5tfHZQ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/parser': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/.parser-OPmD8fQw',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/core': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/.core-1hI8RZlA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/wasi-threads': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/.wasi-threads-BjLuoj1f',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/runtime': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/.runtime-mCMd2hzK',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/core': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/.core-wx00oydu',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/.node-nwesGli6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/types': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/.types-xTWDc0ur',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-darwin-x64-RNMDGXqU',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-darwin-x64-XwmPESzV',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-arm-LjT8BpN9',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-arm64-l7ptmzlU',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-ppc64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-ppc64-VtQtOprV',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-riscv64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-riscv64-pNO6gWnJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-s390x': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-s390x-UxmCrFM6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-x64-GsOOH9LF',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linuxmusl-arm64-QN1CFqN2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linuxmusl-x64-1zJBcM8h',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-arm-nsZL99j0',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-arm64-3yLqIC9w',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-ppc64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-ppc64-1twa12pl',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-riscv64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-riscv64-tWksggDt',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-s390x': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-s390x-5JrBonTY',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-x64-tOXg5eLW',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linuxmusl-arm64-0nMQiubD',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linuxmusl-x64-FDZDd8qm',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-wasm32': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-wasm32-qrf08Q1q',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-win32-arm64-GYRS39e6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-ia32': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-win32-ia32-lkGnLgPR',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-win32-x64-JkiqtuAq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/env': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.env-7rVEWk03',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/eslint-plugin-next': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.eslint-plugin-next-n0Q6QCqg',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-darwin-arm64-111giQ4G',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-darwin-x64-4uTg2fba',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-arm64-gnu-b7HkJTsr',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-arm64-musl-NvSuoSOC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-x64-gnu-CjuNl2Q8',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-x64-musl-M0F0JpP9',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-win32-arm64-msvc-ixq2UQOG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-win32-x64-msvc-QNQ2MUin',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.node-Fm4HkWBj',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-B7ZwEfS4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-android-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-android-arm64-Hdo94zFq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-darwin-arm64-sooh8tWJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-darwin-x64-v2gFUsdS',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-freebsd-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-freebsd-x64-0uKbbq5D',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-arm-gnueabihf-T6csLEeL',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-arm64-gnu-45hrWHkA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-arm64-musl-PEcPGUcn',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-x64-gnu-oyGNCuUC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-x64-musl-fC1rM0zA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-wasm32-wasi': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-wasm32-wasi-0pGc3A1D',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-win32-arm64-msvc-nbznvj2D',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-win32-x64-msvc-oERG9crH',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/postcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.postcss-XH9fpKJf',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tybys/wasm-util': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tybys/.wasm-util-uqzuLJMW',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/estree': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/.estree-9LNAQkiQ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/.node-zxhTN4aZ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/eslint-plugin': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.eslint-plugin-ioQvlgqL',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/parser': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.parser-X0iVngq3',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/project-service': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.project-service-EJagnVy7',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/scope-manager': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.scope-manager-lmLW4gdq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/tsconfig-utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.tsconfig-utils-wQn5z8m2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/type-utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.type-utils-q078lQ1U',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/types': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.types-2NUfD4ys',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/typescript-estree': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.typescript-estree-z2zDoIcJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.utils-ZOL4Wphb',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/visitor-keys': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.visitor-keys-Pbw7UUIt',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm-eabi': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-android-arm-eabi-5vPh3u4x',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-android-arm64-PdLGK8j4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-darwin-x64-P9HoTkU2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-freebsd-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-freebsd-x64-OREGI15Z',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm-gnueabihf-qEXhfk9a',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-musleabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm-musleabihf-tc1ho7hj',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm64-gnu-BKbRADsM',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm64-musl-NzmHLfUC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-ppc64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-ppc64-gnu-whDaARE5',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-riscv64-gnu-O4sPh5Rg',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-riscv64-musl-R21XwE2O',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-s390x-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-s390x-gnu-ExRkp4KR',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-x64-gnu-CyiWRhM1',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-x64-musl-eATgh6H4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-wasm32-wasi': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-wasm32-wasi-MFLbBJNs',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-win32-arm64-msvc-9iZs2x7u',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-ia32-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-win32-ia32-msvc-lPxcKpLC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-win32-x64-msvc-2zuWUsM2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-c2EI2ywf',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/eslint': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.eslint-Urusq5zi',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-bun-module/node_modules/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-bun-module/node_modules/.semver-0lIev6ba',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/acorn': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.acorn-awPjPvyB',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/acorn': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.acorn-DZamsX5X',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jsesc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.jsesc-jmHc9z3N',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/jsesc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.jsesc-EsLloWfb',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/loose-envify': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.loose-envify-aFhRmbmK',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/loose-envify': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.loose-envify-BQoe9YM7',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/js-yaml': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.js-yaml-GbdLpPYa',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/js-yaml': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.js-yaml-2ooOVJU2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.json5-GP2yOK8w',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.json5-gaWi4WLe',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/sharp/node_modules/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/sharp/node_modules/.semver-S6ovWZ8T',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.json5-b2MaqCqB',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.bin/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.bin/.json5-FbsyrvSi',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.typescript-2tgUFYpu',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.tsc-iTDQsz36',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsserver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.tsserver-6LOROBwG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/napi-postinstall': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.napi-postinstall-eqCSIqNX',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/napi-postinstall': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.napi-postinstall-79pci4J1',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/resolve': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.resolve-Bw1C4tZ4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/resolve': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.resolve-ueZ8Wtzm',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.semver-8WklhCQc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.semver-KJ9Ik8fC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/update-browserslist-db': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.update-browserslist-db-QYIkPlHj',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/update-browserslist-db': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.update-browserslist-db-ovfaXGad',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/which': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.which-SouLSvaJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/node-which': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.node-which-asNGqv0c'
+161 silly reify }
+162 verbose stack Error: ENOTEMPTY: directory not empty, rename '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby' -> '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tinyglobby-wb5U7HYA'
+162 verbose stack     at async Object.rename (node:internal/fs/promises:786:10)
+162 verbose stack     at async moveFile (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+162 verbose stack     at async Promise.allSettled (index 40)
+162 verbose stack     at async [reifyPackages] (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+162 verbose stack     at async Arborist.reify (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+162 verbose stack     at async Install.exec (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/lib/commands/install.js:150:5)
+162 verbose stack     at async Npm.exec (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/lib/npm.js:207:9)
+162 verbose stack     at async module.exports (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+163 error code ENOTEMPTY
+164 error syscall rename
+165 error path /Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby
+166 error dest /Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tinyglobby-wb5U7HYA
+167 error errno -66
+168 error ENOTEMPTY: directory not empty, rename '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby' -> '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tinyglobby-wb5U7HYA'
+169 silly unfinished npm timer reify 1778344163387
+170 silly unfinished npm timer reify:retireShallow 1778344163569
+171 verbose cwd /Users/poojithagobburu/carryon_website/carryon-next
+172 verbose os Darwin 25.4.0
+173 verbose node v22.19.0
+174 verbose npm  v10.9.3
+175 verbose exit -66
+176 verbose code -66
+177 error A complete log of this run can be found in: /Users/poojithagobburu/carryon_website/carryon-next/.npm-cache/_logs/2026-05-09T16_29_23_208Z-debug-0.log

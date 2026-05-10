@@ -224,7 +224,7 @@ export default function SignupPage() {
             <input type="checkbox" defaultChecked style={{ marginTop: 3 }} />
             I agree to the Terms &amp; Conditions and Privacy Policy
           </label>
-          <Link href="/" className="btn btn-primary">
+          <Link href="/#download-app" className="btn btn-primary">
             Create Account
             <ArrowRight />
           </Link>

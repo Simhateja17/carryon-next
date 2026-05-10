@@ -34,7 +34,7 @@ export default function CareersPage() {
               <option>Hyderabad</option>
               <option>Remote</option>
             </select>
-            <Link href="/" className="btn btn-primary">
+            <Link href="/#download-app" className="btn btn-primary">
               Find Job
               <ArrowRight />
             </Link>
@@ -78,22 +78,22 @@ export default function CareersPage() {
             </div>
             <div className="value-pills" style={{ justifyContent: "center" }}>
               <div className="value-pill">
-                <em>i.</em> Passion
+                <em>1.</em> Passion
               </div>
               <div className="value-pill">
-                <em>ii.</em> Grit
+                <em>2.</em> Grit
               </div>
               <div className="value-pill">
-                <em>iii.</em> Humility
+                <em>3.</em> Humility
               </div>
               <div className="value-pill">
-                <em>iv.</em> Execution
+                <em>4.</em> Execution
               </div>
               <div className="value-pill">
-                <em>v.</em> Curiosity
+                <em>5.</em> Curiosity
               </div>
               <div className="value-pill">
-                <em>vi.</em> Ownership
+                <em>6.</em> Ownership
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function CareersPage() {
                 a foundation across the entire CarryOn business.
               </p>
               <Link
-                href="/"
+                href="/#download-app"
                 className="arrow-link"
                 style={{
                   color: "var(--royal)",
@@ -298,7 +298,7 @@ export default function CareersPage() {
                 platform teams. Mentored by senior architects.
               </p>
               <Link
-                href="/"
+                href="/#download-app"
                 className="arrow-link"
                 style={{
                   color: "var(--royal)",
@@ -381,7 +381,7 @@ export default function CareersPage() {
             <p>Open roles across engineering, design, ops, and growth.</p>
             <div className="btn-row">
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ background: "white", color: "var(--navy)" }}
               >

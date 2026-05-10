@@ -25,7 +25,7 @@ export default function TrackingPage() {
           </div>
           <div className="track-search-card">
             <input type="text" placeholder="Enter tracking ID, phone number, or order code…" />
-            <Link href="/" className="btn btn-primary">
+            <Link href="/#download-app" className="btn btn-primary">
               Track Now
               <ArrowRight />
             </Link>
@@ -73,7 +73,7 @@ export default function TrackingPage() {
             </div>
           </div>
 
-          <div className="feature-grid-3" style={{ marginTop: 60 }}>
+          <div className="feature-grid-3 tracking-feature-grid" style={{ marginTop: 60 }}>
             <div className="feature-card">
               <div className="feat-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

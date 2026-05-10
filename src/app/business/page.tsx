@@ -24,7 +24,7 @@ export default function BusinessPage() {
                 solutions for businesses of every size.
               </p>
               <div className="hero-cta-row" style={{ marginTop: 36 }}>
-                <Link href="/" className="btn btn-primary">
+                <Link href="/#download-app" className="btn btn-primary">
                   Deliver Now
                   <ArrowRight />
                 </Link>
@@ -137,7 +137,7 @@ export default function BusinessPage() {
                 </div>
               </div>
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ width: "100%", justifyContent: "center", marginTop: 16 }}
               >
@@ -267,7 +267,7 @@ export default function BusinessPage() {
                     borderColor: "#DBEAFE",
                   }}
                 >
-                  i
+                  1
                 </div>
                 <h4 style={{ color: "var(--navy)" }}>Set delivery route</h4>
                 <p style={{ color: "var(--slate-500)" }}>
@@ -283,7 +283,7 @@ export default function BusinessPage() {
                     borderColor: "#DBEAFE",
                   }}
                 >
-                  ii
+                  2
                 </div>
                 <h4 style={{ color: "var(--navy)" }}>Pick a vehicle</h4>
                 <p style={{ color: "var(--slate-500)" }}>
@@ -299,7 +299,7 @@ export default function BusinessPage() {
                     borderColor: "#DBEAFE",
                   }}
                 >
-                  iii
+                  3
                 </div>
                 <h4 style={{ color: "var(--navy)" }}>Confirm delivery</h4>
                 <p style={{ color: "var(--slate-500)" }}>
@@ -315,7 +315,7 @@ export default function BusinessPage() {
                     borderColor: "#DBEAFE",
                   }}
                 >
-                  iv
+                  4
                 </div>
                 <h4 style={{ color: "var(--navy)" }}>Track in real time</h4>
                 <p style={{ color: "var(--slate-500)" }}>
@@ -639,7 +639,7 @@ export default function BusinessPage() {
                 <li>Branch management</li>
               </ul>
               <div style={{ marginTop: 32 }}>
-                <Link href="/" className="btn btn-primary">
+                <Link href="/#download-app" className="btn btn-primary">
                   Read API docs
                   <ArrowRight />
                 </Link>
@@ -666,42 +666,42 @@ export default function BusinessPage() {
             </div>
             <div className="step-list" style={{ marginTop: 0 }}>
               <div className="step-row">
-                <div className="n">i</div>
+                <div className="n">1</div>
                 <div>
                   <h5>Tell us your delivery needs</h5>
                   <p>Volume, geography, SLAs, and SOPs.</p>
                 </div>
               </div>
               <div className="step-row">
-                <div className="n">ii</div>
+                <div className="n">2</div>
                 <div>
                   <h5>Access dedicated portal</h5>
                   <p>Your branded ops console, ready in days.</p>
                 </div>
               </div>
               <div className="step-row">
-                <div className="n">iii</div>
+                <div className="n">3</div>
                 <div>
                   <h5>Place orders manually or via API</h5>
                   <p>Whatever fits your existing workflow.</p>
                 </div>
               </div>
               <div className="step-row">
-                <div className="n">iv</div>
+                <div className="n">4</div>
                 <div>
                   <h5>Receive routing guidance</h5>
                   <p>Our planners review your traffic in real time.</p>
                 </div>
               </div>
               <div className="step-row">
-                <div className="n">v</div>
+                <div className="n">5</div>
                 <div>
                   <h5>Deliver against SOPs &amp; SLAs</h5>
                   <p>With trained drivers and live escalation.</p>
                 </div>
               </div>
               <div className="step-row">
-                <div className="n">vi</div>
+                <div className="n">6</div>
                 <div>
                   <h5>Export reports</h5>
                   <p>Parcel-level audit logs &amp; proof of delivery.</p>
@@ -899,14 +899,14 @@ export default function BusinessPage() {
             </p>
             <div className="btn-row">
               <Link
-                href="/contact"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ background: "white", color: "var(--navy)" }}
               >
                 Contact Sales
               </Link>
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-ghost-line"
                 style={{ color: "white", borderColor: "rgba(255,255,255,.3)" }}
               >
