@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const ArrowRight = ({ className = "arrow" }: { className?: string }) => (
@@ -56,66 +57,33 @@ export default function HomePage() {
             </div>
             <div className="hero-art">
               <div className="hero-art-bg" />
-              <div className="map-card">
-                <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-                      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(37,99,235,0.08)" strokeWidth="1" />
-                    </pattern>
-                    <linearGradient id="route" x1="0" y1="0" x2="1" y2="1">
-                      <stop offset="0%" stopColor="#2563EB" />
-                      <stop offset="100%" stopColor="#60A5FA" />
-                    </linearGradient>
-                  </defs>
-                  <rect width="600" height="600" fill="url(#grid)" />
-                  <path d="M0 200 Q200 180, 320 220 T600 280" stroke="rgba(37,99,235,0.18)" strokeWidth="22" fill="none" strokeLinecap="round" />
-                  <path d="M50 0 Q90 200, 200 350 T420 600" stroke="rgba(37,99,235,0.12)" strokeWidth="18" fill="none" strokeLinecap="round" />
-                  <path d="M150 100 Q300 250, 500 200" stroke="rgba(15,23,42,0.06)" strokeWidth="14" fill="none" strokeLinecap="round" />
-                  <path d="M100 470 Q220 380, 280 320 T520 140" stroke="url(#route)" strokeWidth="5" fill="none" strokeLinecap="round" strokeDasharray="4 6" />
-                  <circle cx="100" cy="470" r="14" fill="white" stroke="#2563EB" strokeWidth="3" />
-                  <circle cx="100" cy="470" r="6" fill="#2563EB" />
-                  <circle cx="320" cy="280" r="22" fill="#2563EB" opacity="0.18" />
-                  <circle cx="320" cy="280" r="14" fill="#2563EB" />
-                  <path d="M313 280 L317 285 L327 273" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="520" cy="125" r="14" fill="#0F172A" />
-                  <circle cx="520" cy="125" r="5" fill="white" />
-                  <rect x="380" y="380" width="50" height="80" rx="6" fill="rgba(15,23,42,0.08)" />
-                  <rect x="440" y="350" width="40" height="110" rx="6" fill="rgba(15,23,42,0.08)" />
-                  <rect x="100" y="100" width="60" height="100" rx="6" fill="rgba(15,23,42,0.06)" />
-                </svg>
+              <div className="hero-truck-wrap">
+                <Image
+                  src="/carryon-truck.png"
+                  alt="CarryOn delivery truck"
+                  fill
+                  style={{ objectFit: "contain" }}
+                  priority
+                />
               </div>
               <div className="float-card f1">
                 <div className="float-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 7h14l-1 12H6L5 7zM9 7V5a3 3 0 016 0v2" />
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <path d="M13 2L4.5 13.5H12L11 22l8.5-11.5H12.5L13 2z" />
                   </svg>
                 </div>
-                <div>
-                  <div className="label">Package</div>
-                  <div className="val">12kg &middot; Electronics</div>
-                </div>
+                <div className="val">Fast delivery across KL</div>
               </div>
               <div className="float-card f2">
-                <div className="float-icon green">
+                <div className="float-icon">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12l5 5L20 7" />
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                    <circle cx="12" cy="9" r="2.5" />
                   </svg>
                 </div>
                 <div>
-                  <div className="label">Delivered</div>
-                  <div className="val">12 min ago</div>
-                </div>
-              </div>
-              <div className="float-card f3">
-                <div className="float-icon navy">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 6v6l4 2" />
-                  </svg>
-                </div>
-                <div>
-                  <div className="label">ETA</div>
-                  <div className="val">23 minutes</div>
+                  <div className="label" style={{ color: "var(--royal)" }}>Real-time status</div>
+                  <div className="val">Live tracking enabled</div>
                 </div>
               </div>
             </div>

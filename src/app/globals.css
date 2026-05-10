@@ -357,41 +357,33 @@ h3.card-title {
 }
 .hero-art-bg {
   position: absolute; inset: 0;
-  background:
-    radial-gradient(circle at 60% 40%, rgba(37,99,235,.18), transparent 60%),
-    radial-gradient(circle at 30% 80%, rgba(96,165,250,.22), transparent 55%);
-  filter: blur(40px);
-}
-.map-card {
-  position: relative; width: 100%; aspect-ratio: 1.02/1;
-  background: linear-gradient(160deg, #EFF6FF 0%, #DBEAFE 100%);
   border-radius: 32px;
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(255,255,255,.8);
+  background-color: #EEF3FB;
+  background-image: radial-gradient(circle, rgba(37,99,235,.13) 1.5px, transparent 1.5px);
+  background-size: 28px 28px;
 }
-.map-card svg { width: 100%; height: 100%; }
+.hero-truck-wrap {
+  position: relative; width: 100%; aspect-ratio: 16/9;
+}
 
 .float-card {
   position: absolute; background: var(--white);
-  border-radius: 20px; padding: 16px 20px;
-  box-shadow: 0 12px 32px rgba(15,23,42,.12), 0 1px 0 rgba(255,255,255,.8) inset;
+  border-radius: 20px; padding: 14px 20px;
+  box-shadow: 0 8px 28px rgba(15,23,42,.10), 0 1px 0 rgba(255,255,255,.8) inset;
   display: flex; align-items: center; gap: 14px;
-  border: 1px solid rgba(255,255,255,.9);
+  border: 1px solid rgba(255,255,255,.95);
   animation: float 6s ease-in-out infinite;
+  white-space: nowrap;
 }
 @keyframes float { 0%,100%{ transform:translateY(0)} 50%{ transform:translateY(-10px)} }
-.float-card.f1 { top: 8%; left: -6%; animation-delay: 0s; }
-.float-card.f2 { bottom: 14%; right: -8%; animation-delay: 2s; }
-.float-card.f3 { top: 50%; right: -4%; animation-delay: 4s; }
+.float-card.f1 { top: 6%; right: -4%; animation-delay: 0s; }
+.float-card.f2 { bottom: 8%; left: -4%; animation-delay: 2s; }
 
 .float-icon { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center;
-  background: linear-gradient(135deg, var(--royal), var(--sky)); color: white;
+  background: linear-gradient(135deg, var(--royal), var(--sky)); color: white; flex-shrink: 0;
 }
-.float-icon.green { background: linear-gradient(135deg, #10B981, #34D399); }
-.float-icon.navy { background: linear-gradient(135deg, var(--navy), var(--royal)); }
 .float-card .label { font-size: 11px; color: var(--slate-500); letter-spacing: .5px; text-transform: uppercase; }
-.float-card .val { font-family: var(--headline); font-weight: 600; font-size: 16px; color: var(--navy); }
+.float-card .val { font-family: var(--headline); font-weight: 600; font-size: 15px; color: var(--navy); }
 
 @media (max-width: 1024px) {
   .hero-grid { grid-template-columns: 1fr; }
