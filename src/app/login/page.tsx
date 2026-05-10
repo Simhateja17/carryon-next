@@ -11,10 +11,6 @@ export default function LoginPage() {
     <div className="auth-shell">
       <div className="auth-art">
         <div className="auth-art-content">
-          <Link href="/" className="brand">
-            <span className="mark">C</span>
-            Carry<em>On</em>
-          </Link>
           <h1>
             Welcome <em>back</em>
             <br />

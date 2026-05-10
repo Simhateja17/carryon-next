@@ -8,6 +8,81 @@ const ArrowRight = ({ className = "arrow" }: { className?: string }) => (
   </svg>
 );
 
+const vehicles = [
+  {
+    name: "Bike",
+    description: "Documents, food, small parcels",
+    capacity: "Up to 5kg",
+    icon: "/bike-icon.png",
+  },
+  {
+    name: "Scooter",
+    description: "Groceries, food, quick errands",
+    capacity: "Up to 10kg",
+    icon: "/scooter-icon.png",
+  },
+  {
+    name: "Car",
+    description: "Flowers, fragile goods, parcels",
+    capacity: "Up to 40kg",
+    icon: "/car-icon.png",
+  },
+  {
+    name: "Pickup (4x4)",
+    description: "Small boxes, furniture, bicycle",
+    capacity: "Up to 250kg",
+    icon: "/veh-icon-4.png",
+  },
+  {
+    name: "Van 7-ft",
+    description: "Small fridge, bike, washing machine",
+    capacity: "Up to 500kg",
+    icon: "/veh-icon-3.png",
+  },
+  {
+    name: "Large Van 9-ft",
+    description: "Washing machine, 1-seater sofa",
+    capacity: "Up to 800kg",
+    icon: "/veh-icon-3.png",
+  },
+  {
+    name: "Mini Van",
+    description: "Mid-size cargo, multiple items",
+    capacity: "Up to 350kg",
+    icon: "/veh-icon-3.png",
+  },
+  {
+    name: "Pickup Truck",
+    description: "Open-bed cargo, furniture",
+    capacity: "Up to 750kg",
+    icon: "/veh-icon-4.png",
+  },
+  {
+    name: "Tempo",
+    description: "Bulk delivery, business cargo",
+    capacity: "Up to 1.2 ton",
+    icon: "/tempo-component-9.png",
+  },
+  {
+    name: "Small Lorry 10-ft",
+    description: "Small bed, 2-seater sofa, fridge",
+    capacity: "Up to 1000kg",
+    icon: "/lorry-icon.png",
+  },
+  {
+    name: "Medium Lorry 14-ft",
+    description: "Queen bed, wardrobe, large items",
+    capacity: "Up to 2500kg",
+    icon: "/lorry-icon.png",
+  },
+  {
+    name: "Large Lorry 17-ft",
+    description: "King bed, washer, 3-seater sofa",
+    capacity: "Up to 4000kg",
+    icon: "/lorry-icon.png",
+  },
+];
+
 export default function HomePage() {
   return (
     <>
@@ -150,7 +225,7 @@ export default function HomePage() {
           </span>
           <span className="dot" />
           <span className="item">
-            Six <em>Vehicle</em> Options
+            Many <em>Vehicle</em> Options
           </span>
           <span className="dot" />
           <span className="item">
@@ -174,7 +249,7 @@ export default function HomePage() {
           </span>
           <span className="dot" />
           <span className="item">
-            Six <em>Vehicle</em> Options
+            Many <em>Vehicle</em> Options
           </span>
           <span className="dot" />
           <span className="item">
@@ -260,66 +335,24 @@ export default function HomePage() {
             </div>
           </div>
           <div className="veh-grid">
-            <div className="veh-card">
-              <div className="veh-icon">
-                <Image src="/veh-icon-1.png" alt="Bike icon" width={42} height={42} className="veh-icon-image" />
+            {vehicles.map((vehicle) => (
+              <div className="veh-card" key={vehicle.name}>
+                <div className="veh-icon">
+                  <Image
+                    src={vehicle.icon}
+                    alt={`${vehicle.name} icon`}
+                    width={180}
+                    height={120}
+                    className="veh-icon-image"
+                  />
+                </div>
+                <div>
+                  <h4>{vehicle.name}</h4>
+                  <p>{vehicle.description}</p>
+                  <span className="veh-cap">{vehicle.capacity}</span>
+                </div>
               </div>
-              <div>
-                <h4>Bike</h4>
-                <p>Documents, small parcels</p>
-                <span className="veh-cap">Up to 5kg</span>
-              </div>
-            </div>
-            <div className="veh-card">
-              <div className="veh-icon">
-                <Image src="/veh-icon-2.png" alt="Scooter icon" width={42} height={42} className="veh-icon-image" />
-              </div>
-              <div>
-                <h4>Scooter</h4>
-                <p>Food, small boxes</p>
-                <span className="veh-cap">Up to 10kg</span>
-              </div>
-            </div>
-            <div className="veh-card">
-              <div className="veh-icon">
-                <Image src="/veh-icon-3.png" alt="Mini van icon" width={42} height={42} className="veh-icon-image" />
-              </div>
-              <div>
-                <h4>Mini Van</h4>
-                <p>Mid-size cargo, multiple items</p>
-                <span className="veh-cap">Up to 350kg</span>
-              </div>
-            </div>
-            <div className="veh-card">
-              <div className="veh-icon">
-                <Image src="/veh-icon-4.png" alt="Pickup truck icon" width={42} height={42} className="veh-icon-image" />
-              </div>
-              <div>
-                <h4>Pickup Truck</h4>
-                <p>Open-bed cargo, furniture</p>
-                <span className="veh-cap">Up to 750kg</span>
-              </div>
-            </div>
-            <div className="veh-card">
-              <div className="veh-icon">
-                <Image src="/veh-icon-5.png" alt="Tempo icon" width={42} height={42} className="veh-icon-image" />
-              </div>
-              <div>
-                <h4>Tempo</h4>
-                <p>Bulk delivery, business cargo</p>
-                <span className="veh-cap">Up to 1.2 ton</span>
-              </div>
-            </div>
-            <div className="veh-card">
-              <div className="veh-icon">
-                <Image src="/veh-icon-6.png" alt="Large truck icon" width={42} height={42} className="veh-icon-image" />
-              </div>
-              <div>
-                <h4>Large Truck</h4>
-                <p>Long-haul, heavy logistics</p>
-                <span className="veh-cap">Up to 5 ton</span>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -484,10 +517,10 @@ export default function HomePage() {
                 tracking is honestly addictive.
               </p>
               <div className="test-author">
-                <div className="avatar">AS</div>
+                <div className="avatar">NA</div>
                 <div>
-                  <div className="name">Aanya Sharma</div>
-                  <div className="meta">Bandra, Mumbai</div>
+                  <div className="name">Nur Aisyah Rahman</div>
+                  <div className="meta">Bangsar, Kuala Lumpur</div>
                 </div>
               </div>
             </div>
@@ -499,10 +532,10 @@ export default function HomePage() {
                 <em>respects</em> my time.
               </p>
               <div className="test-author">
-                <div className="avatar">RV</div>
+                <div className="avatar">AZ</div>
                 <div>
-                  <div className="name">Ravi Verma</div>
-                  <div className="meta">Driver Partner &middot; 18 months</div>
+                  <div className="name">Ahmad Zikri</div>
+                  <div className="meta">Driver Partner &middot; Petaling Jaya</div>
                 </div>
               </div>
             </div>
@@ -514,10 +547,10 @@ export default function HomePage() {
                 last-mile costs by <em>32%</em>.
               </p>
               <div className="test-author">
-                <div className="avatar">PG</div>
+                <div className="avatar">LC</div>
                 <div>
-                  <div className="name">Priyanka Gupta</div>
-                  <div className="meta">Ops Lead, Nova Mart</div>
+                  <div className="name">Lim Chia Wei</div>
+                  <div className="meta">Ops Lead, Selangor Fresh Mart</div>
                 </div>
               </div>
             </div>

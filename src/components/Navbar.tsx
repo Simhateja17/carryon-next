@@ -77,6 +77,11 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
+                <Link href="/founders" onClick={closeAll}>
+                  Founders
+                </Link>
+              </li>
+              <li>
                 <Link href="/careers" onClick={closeAll}>
                   Careers
                 </Link>
