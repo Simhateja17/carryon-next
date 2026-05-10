@@ -1,0 +1,1551 @@
+0 verbose cli /Users/poojithagobburu/.nvm/versions/node/v22.19.0/bin/node /Users/poojithagobburu/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/poojithagobburu/carryon_website/carryon-next/.npmrc
+5 silly config load:file:/Users/poojithagobburu/.npmrc
+6 silly config load:file:/Users/poojithagobburu/.nvm/versions/node/v22.19.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/poojithagobburu/carryon_website/carryon-next/.npm-cache/_logs/2026-05-09T16_27_44_233Z-
+10 verbose logfile /Users/poojithagobburu/carryon_website/carryon-next/.npm-cache/_logs/2026-05-09T16_27_44_233Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ajv'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/axe-core'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/baseline-browser-mapping'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/brace-expansion'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/browserslist'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/call-bind'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/caniuse-lite'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/electron-to-chromium'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-abstract'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/enhanced-resolve'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-iterator-helpers'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-config-next'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-import-resolver-node'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-plugin-react-hooks'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/flatted'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/get-tsconfig'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/hasown'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-core-module'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jiti'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-android-arm64'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-arm64'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-freebsd-x64'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-x64'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm-gnueabihf'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-musl'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-gnu'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-musl'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-gnu'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-arm64-msvc'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-x64-msvc'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/nanoid'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/next'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/node-releases'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/picomatch'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/postcss'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/safe-array-concat'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/side-channel-list'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tailwindcss'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tapable'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ts-api-utils'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript-eslint'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/zod'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/compat-data'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/helpers'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/parser'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/core'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/runtime'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/wasi-threads'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/core'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/node'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/types'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-darwin-x64'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-darwin-x64'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm64'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-ppc64'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-riscv64'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-s390x'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-x64'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-x64'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm64'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-ppc64'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-riscv64'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-s390x'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-x64'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-x64'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-arm64'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-wasm32'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-ia32'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-arm64'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-x64'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/env'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/eslint-plugin-next'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-arm64'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-x64'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-gnu'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-musl'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-musl'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-gnu'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-arm64-msvc'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-x64-msvc'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/node'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-android-arm64'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-arm64'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-x64'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-freebsd-x64'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-wasm32-wasi'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-musl'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/postcss'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/estree'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/node'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tybys/wasm-util'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/eslint-plugin'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/parser'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/project-service'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/tsconfig-utils'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/type-utils'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/scope-manager'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/types'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/typescript-estree'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/utils'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/visitor-keys'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm-eabi'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm64'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-darwin-x64'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-freebsd-x64'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-musl'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-wasm32-wasi'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/acorn',
+146 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/acorn'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint',
+147 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/eslint'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-bun-module/node_modules/semver'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jsesc',
+149 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/jsesc'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/js-yaml',
+150 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/js-yaml'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/json5',
+151 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/json5'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/loose-envify',
+152 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/loose-envify'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/napi-postinstall',
+153 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/napi-postinstall'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/resolve',
+154 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/resolve'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/semver',
+155 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/semver'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/sharp/node_modules/semver'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/json5',
+157 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.bin/json5'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript',
+158 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsc',
+158 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsserver'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/update-browserslist-db',
+159 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/update-browserslist-db'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/which',
+160 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/node-which'
+160 silly reify ]
+161 silly reify moves {
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ajv': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.ajv-H0g1x6cw',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/axe-core': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.axe-core-6toT8ypO',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/baseline-browser-mapping': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.baseline-browser-mapping-lOMhTJPJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/brace-expansion': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.brace-expansion-PzrjQTtn',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/browserslist': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.browserslist-WYP61L9d',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/call-bind': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.call-bind-Kon36oNY',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/caniuse-lite': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.caniuse-lite-NXVwnMVQ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/electron-to-chromium': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.electron-to-chromium-HwTWPHzx',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-abstract': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.es-abstract-ZR79x9L5',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/enhanced-resolve': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.enhanced-resolve-O70QIP8j',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/es-iterator-helpers': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.es-iterator-helpers-inWZPIn4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-config-next': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-config-next-Emmso9fs',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-import-resolver-node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-import-resolver-node-zXVuso4P',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint-plugin-react-hooks': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-plugin-react-hooks-G9hpHkT8',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/flatted': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.flatted-disvAANW',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/get-tsconfig': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.get-tsconfig-3ajuxPgz',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/hasown': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.hasown-GKvu2QnG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-core-module': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.is-core-module-ptub9YTI',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jiti': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.jiti-m3UglsW0',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-npvciJHc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-android-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-android-arm64-3EEPcB4k',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-darwin-arm64-tgEkarmZ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-freebsd-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-freebsd-x64-9WBEPqcz',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-darwin-x64-940zELPE',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm-gnueabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-arm-gnueabihf-oyZKDPcg',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-arm64-musl-6csm0TxD',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-arm64-gnu-N4HTyONC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-x64-musl-LT4QA0SB',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-linux-x64-gnu-H83EP0k3',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-win32-arm64-msvc-wqgPXLk6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.lightningcss-win32-x64-msvc-WsvOJBhv',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/nanoid': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.nanoid-r10dH3xq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/next': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.next-ndweuTo5',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/node-releases': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.node-releases-lZDhZUzp',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/picomatch': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.picomatch-eHvmcaGL',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/postcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.postcss-vpzaxVsZ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/safe-array-concat': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.safe-array-concat-6BsZsILT',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/side-channel-list': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.side-channel-list-i9jIDaPS',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tailwindcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tailwindcss-0EB6xgjc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tapable': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tapable-HnEmVBQI',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tinyglobby': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.tinyglobby-wb5U7HYA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/ts-api-utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.ts-api-utils-LyXABcyc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript-eslint': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.typescript-eslint-r2sPL5Cv',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/zod': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.zod-vL9WQOEN',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/compat-data': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/.compat-data-14zTzcCG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/helpers': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/.helpers-wb5tfHZQ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/parser': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@babel/.parser-OPmD8fQw',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/core': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/.core-1hI8RZlA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/runtime': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/.runtime-mCMd2hzK',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/wasi-threads': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@emnapi/.wasi-threads-BjLuoj1f',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/core': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/.core-wx00oydu',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/.node-nwesGli6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/types': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@humanfs/.types-xTWDc0ur',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-darwin-x64-RNMDGXqU',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-darwin-x64-XwmPESzV',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-arm-LjT8BpN9',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-arm64-l7ptmzlU',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-ppc64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-ppc64-VtQtOprV',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-riscv64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-riscv64-pNO6gWnJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-s390x': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-s390x-UxmCrFM6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linux-x64-GsOOH9LF',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linuxmusl-arm64-QN1CFqN2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-arm-nsZL99j0',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-libvips-linuxmusl-x64-1zJBcM8h',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-arm64-3yLqIC9w',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-ppc64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-ppc64-1twa12pl',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-riscv64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-riscv64-tWksggDt',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-s390x': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-s390x-5JrBonTY',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linux-x64-tOXg5eLW',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linuxmusl-x64-FDZDd8qm',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-linuxmusl-arm64-0nMQiubD',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-wasm32': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-wasm32-qrf08Q1q',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-ia32': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-win32-ia32-lkGnLgPR',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-win32-arm64-GYRS39e6',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/.sharp-win32-x64-JkiqtuAq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/env': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.env-7rVEWk03',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/eslint-plugin-next': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.eslint-plugin-next-n0Q6QCqg',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-darwin-arm64-111giQ4G',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-darwin-x64-4uTg2fba',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-arm64-gnu-b7HkJTsr',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-arm64-musl-NvSuoSOC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-x64-musl-M0F0JpP9',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-linux-x64-gnu-CjuNl2Q8',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-win32-arm64-msvc-ixq2UQOG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/.swc-win32-x64-msvc-QNQ2MUin',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.node-Fm4HkWBj',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-B7ZwEfS4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-android-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-android-arm64-Hdo94zFq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-darwin-arm64-sooh8tWJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-darwin-x64-v2gFUsdS',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-freebsd-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-freebsd-x64-0uKbbq5D',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-arm-gnueabihf-T6csLEeL',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-arm64-musl-PEcPGUcn',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-arm64-gnu-45hrWHkA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-x64-gnu-oyGNCuUC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-wasm32-wasi': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-wasm32-wasi-0pGc3A1D',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-linux-x64-musl-fC1rM0zA',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-win32-arm64-msvc-nbznvj2D',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/postcss': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.postcss-XH9fpKJf',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/.oxide-win32-x64-msvc-oERG9crH',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/estree': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/.estree-9LNAQkiQ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/node': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@types/.node-zxhTN4aZ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tybys/wasm-util': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tybys/.wasm-util-uqzuLJMW',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/eslint-plugin': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.eslint-plugin-ioQvlgqL',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/parser': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.parser-X0iVngq3',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/project-service': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.project-service-EJagnVy7',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/tsconfig-utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.tsconfig-utils-wQn5z8m2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/type-utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.type-utils-q078lQ1U',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/scope-manager': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.scope-manager-lmLW4gdq',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/types': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.types-2NUfD4ys',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/typescript-estree': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.typescript-estree-z2zDoIcJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/utils': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.utils-ZOL4Wphb',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/visitor-keys': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@typescript-eslint/.visitor-keys-Pbw7UUIt',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm-eabi': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-android-arm-eabi-5vPh3u4x',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-android-arm64-PdLGK8j4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-darwin-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-darwin-x64-P9HoTkU2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm-gnueabihf-qEXhfk9a',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-freebsd-x64': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-freebsd-x64-OREGI15Z',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-musleabihf': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm-musleabihf-tc1ho7hj',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm64-gnu-BKbRADsM',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-arm64-musl-NzmHLfUC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-ppc64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-ppc64-gnu-whDaARE5',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-riscv64-gnu-O4sPh5Rg',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-riscv64-musl-R21XwE2O',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-s390x-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-s390x-gnu-ExRkp4KR',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-gnu': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-x64-gnu-CyiWRhM1',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-musl': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-linux-x64-musl-eATgh6H4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-wasm32-wasi': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-wasm32-wasi-MFLbBJNs',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-arm64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-win32-arm64-msvc-9iZs2x7u',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-ia32-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-win32-ia32-msvc-lPxcKpLC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-x64-msvc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/.resolver-binding-win32-x64-msvc-2zuWUsM2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/acorn': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.acorn-awPjPvyB',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/acorn': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.acorn-DZamsX5X',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/eslint': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.eslint-c2EI2ywf',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/eslint': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.eslint-Urusq5zi',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-bun-module/node_modules/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/is-bun-module/node_modules/.semver-0lIev6ba',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/jsesc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.jsesc-jmHc9z3N',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/jsesc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.jsesc-EsLloWfb',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/js-yaml': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.js-yaml-GbdLpPYa',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/js-yaml': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.js-yaml-2ooOVJU2',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.json5-GP2yOK8w',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.json5-gaWi4WLe',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/loose-envify': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.loose-envify-aFhRmbmK',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/loose-envify': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.loose-envify-BQoe9YM7',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/napi-postinstall': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.napi-postinstall-eqCSIqNX',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/napi-postinstall': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.napi-postinstall-79pci4J1',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/resolve': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.resolve-Bw1C4tZ4',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/resolve': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.resolve-ueZ8Wtzm',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.semver-8WklhCQc',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.semver-KJ9Ik8fC',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/sharp/node_modules/semver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/sharp/node_modules/.semver-S6ovWZ8T',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.json5-b2MaqCqB',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.bin/json5': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/tsconfig-paths/node_modules/.bin/.json5-FbsyrvSi',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/typescript': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.typescript-2tgUFYpu',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsc': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.tsc-iTDQsz36',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/tsserver': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.tsserver-6LOROBwG',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/update-browserslist-db': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.update-browserslist-db-QYIkPlHj',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/update-browserslist-db': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.update-browserslist-db-ovfaXGad',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/which': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.which-SouLSvaJ',
+161 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/node-which': '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/.bin/.node-which-asNGqv0c'
+161 silly reify }
+162 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-wasm32-wasi
+163 silly reify mark deleted [
+163 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-wasm32-wasi'
+163 silly reify ]
+164 silly audit bulk request {
+164 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+164 silly audit   '@babel/code-frame': [ '7.29.0' ],
+164 silly audit   '@babel/compat-data': [ '7.29.3' ],
+164 silly audit   '@babel/core': [ '7.29.0' ],
+164 silly audit   '@babel/generator': [ '7.29.1' ],
+164 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+164 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+164 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+164 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+164 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+164 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+164 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+164 silly audit   '@babel/helpers': [ '7.29.2' ],
+164 silly audit   '@babel/parser': [ '7.29.3' ],
+164 silly audit   '@babel/template': [ '7.28.6' ],
+164 silly audit   '@babel/traverse': [ '7.29.0' ],
+164 silly audit   '@babel/types': [ '7.29.0' ],
+164 silly audit   '@emnapi/core': [ '1.10.0' ],
+164 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+164 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+164 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+164 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+164 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+164 silly audit   '@eslint/config-array': [ '0.21.2' ],
+164 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+164 silly audit   '@eslint/core': [ '0.17.0' ],
+164 silly audit   '@eslint/eslintrc': [ '3.3.5' ],
+164 silly audit   '@eslint/js': [ '9.39.4' ],
+164 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+164 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+164 silly audit   '@humanfs/core': [ '0.19.2' ],
+164 silly audit   '@humanfs/node': [ '0.16.8' ],
+164 silly audit   '@humanfs/types': [ '0.15.0' ],
+164 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+164 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+164 silly audit   '@img/colour': [ '1.1.0' ],
+164 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+164 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+164 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+164 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+164 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+164 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+164 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+164 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+164 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+164 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+164 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+164 silly audit   '@next/env': [ '16.2.6' ],
+164 silly audit   '@next/eslint-plugin-next': [ '16.2.6' ],
+164 silly audit   '@next/swc-darwin-arm64': [ '16.2.6' ],
+164 silly audit   '@next/swc-darwin-x64': [ '16.2.6' ],
+164 silly audit   '@next/swc-linux-arm64-gnu': [ '16.2.6' ],
+164 silly audit   '@next/swc-linux-arm64-musl': [ '16.2.6' ],
+164 silly audit   '@next/swc-linux-x64-gnu': [ '16.2.6' ],
+164 silly audit   '@next/swc-linux-x64-musl': [ '16.2.6' ],
+164 silly audit   '@next/swc-win32-arm64-msvc': [ '16.2.6' ],
+164 silly audit   '@next/swc-win32-x64-msvc': [ '16.2.6' ],
+164 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+164 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+164 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+164 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+164 silly audit   '@rtsao/scc': [ '1.1.0' ],
+164 silly audit   '@swc/helpers': [ '0.5.15' ],
+164 silly audit   '@tailwindcss/node': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.0' ],
+164 silly audit   '@tailwindcss/postcss': [ '4.3.0' ],
+164 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+164 silly audit   '@types/estree': [ '1.0.9' ],
+164 silly audit   '@types/json-schema': [ '7.0.15' ],
+164 silly audit   '@types/json5': [ '0.0.29' ],
+164 silly audit   '@types/node': [ '20.19.40' ],
+164 silly audit   '@types/react': [ '19.2.14' ],
+164 silly audit   '@types/react-dom': [ '19.2.3' ],
+164 silly audit   '@typescript-eslint/eslint-plugin': [ '8.59.2' ],
+164 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+164 silly audit   '@typescript-eslint/parser': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/project-service': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/scope-manager': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/type-utils': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/types': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/typescript-estree': [ '8.59.2' ],
+164 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+164 silly audit   'brace-expansion': [ '5.0.6', '1.1.14' ],
+164 silly audit   minimatch: [ '10.2.5', '3.1.5' ],
+164 silly audit   semver: [ '7.8.0', '6.3.1' ],
+164 silly audit   '@typescript-eslint/utils': [ '8.59.2' ],
+164 silly audit   '@typescript-eslint/visitor-keys': [ '8.59.2' ],
+164 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+164 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+164 silly audit   acorn: [ '8.16.0' ],
+164 silly audit   'acorn-jsx': [ '5.3.2' ],
+164 silly audit   ajv: [ '6.15.0' ],
+164 silly audit   'ansi-styles': [ '4.3.0' ],
+164 silly audit   argparse: [ '2.0.1' ],
+164 silly audit   'aria-query': [ '5.3.2' ],
+164 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+164 silly audit   'array-includes': [ '3.1.9' ],
+164 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+164 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+164 silly audit   'array.prototype.flat': [ '1.3.3' ],
+164 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+164 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+164 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+164 silly audit   'ast-types-flow': [ '0.0.8' ],
+164 silly audit   'async-function': [ '1.0.0' ],
+164 silly audit   'available-typed-arrays': [ '1.0.7' ],
+164 silly audit   'axe-core': [ '4.11.4' ],
+164 silly audit   'axobject-query': [ '4.1.0' ],
+164 silly audit   'baseline-browser-mapping': [ '2.10.28' ],
+164 silly audit   braces: [ '3.0.3' ],
+164 silly audit   browserslist: [ '4.28.2' ],
+164 silly audit   'call-bind': [ '1.0.9' ],
+164 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+164 silly audit   'call-bound': [ '1.0.4' ],
+164 silly audit   callsites: [ '3.1.0' ],
+164 silly audit   'caniuse-lite': [ '1.0.30001792' ],
+164 silly audit   chalk: [ '4.1.2' ],
+164 silly audit   'client-only': [ '0.0.1' ],
+164 silly audit   'color-convert': [ '2.0.1' ],
+164 silly audit   'color-name': [ '1.1.4' ],
+164 silly audit   'concat-map': [ '0.0.1' ],
+164 silly audit   'convert-source-map': [ '2.0.0' ],
+164 silly audit   'cross-spawn': [ '7.0.6' ],
+164 silly audit   csstype: [ '3.2.3' ],
+164 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+164 silly audit   'data-view-buffer': [ '1.0.2' ],
+164 silly audit   'data-view-byte-length': [ '1.0.2' ],
+164 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+164 silly audit   debug: [ '4.4.3', '3.2.7' ],
+164 silly audit   'deep-is': [ '0.1.4' ],
+164 silly audit   'define-data-property': [ '1.1.4' ],
+164 silly audit   'define-properties': [ '1.2.1' ],
+164 silly audit   'detect-libc': [ '2.1.2' ],
+164 silly audit   doctrine: [ '2.1.0' ],
+164 silly audit   'dunder-proto': [ '1.0.1' ],
+164 silly audit   'electron-to-chromium': [ '1.5.353' ],
+164 silly audit   'emoji-regex': [ '9.2.2' ],
+164 silly audit   'enhanced-resolve': [ '5.21.2' ],
+164 silly audit   'es-abstract': [ '1.24.2' ],
+164 silly audit   'es-define-property': [ '1.0.1' ],
+164 silly audit   'es-errors': [ '1.3.0' ],
+164 silly audit   'es-iterator-helpers': [ '1.3.2' ],
+164 silly audit   'es-object-atoms': [ '1.1.1' ],
+164 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+164 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+164 silly audit   'es-to-primitive': [ '1.3.0' ],
+164 silly audit   escalade: [ '3.2.0' ],
+164 silly audit   'escape-string-regexp': [ '4.0.0' ],
+164 silly audit   eslint: [ '9.39.4' ],
+164 silly audit   'eslint-config-next': [ '16.2.6' ],
+164 silly audit   globals: [ '16.4.0', '14.0.0' ],
+164 silly audit   'eslint-import-resolver-node': [ '0.3.10' ],
+164 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+164 silly audit   'eslint-module-utils': [ '2.12.1' ],
+164 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+164 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+164 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+164 silly audit   'eslint-plugin-react-hooks': [ '7.1.1' ],
+164 silly audit   'eslint-scope': [ '8.4.0' ],
+164 silly audit   espree: [ '10.4.0' ],
+164 silly audit   esquery: [ '1.7.0' ],
+164 silly audit   esrecurse: [ '4.3.0' ],
+164 silly audit   estraverse: [ '5.3.0' ],
+164 silly audit   esutils: [ '2.0.3' ],
+164 silly audit   'fast-deep-equal': [ '3.1.3' ],
+164 silly audit   'fast-glob': [ '3.3.1' ],
+164 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+164 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+164 silly audit   'fast-levenshtein': [ '2.0.6' ],
+164 silly audit   fastq: [ '1.20.1' ],
+164 silly audit   'file-entry-cache': [ '8.0.0' ],
+164 silly audit   'fill-range': [ '7.1.1' ],
+164 silly audit   'find-up': [ '5.0.0' ],
+164 silly audit   'flat-cache': [ '4.0.1' ],
+164 silly audit   flatted: [ '3.4.2' ],
+164 silly audit   'for-each': [ '0.3.5' ],
+164 silly audit   'function-bind': [ '1.1.2' ],
+164 silly audit   'function.prototype.name': [ '1.1.8' ],
+164 silly audit   'functions-have-names': [ '1.2.3' ],
+164 silly audit   'generator-function': [ '2.0.1' ],
+164 silly audit   gensync: [ '1.0.0-beta.2' ],
+164 silly audit   'get-intrinsic': [ '1.3.0' ],
+164 silly audit   'get-proto': [ '1.0.1' ],
+164 silly audit   'get-symbol-description': [ '1.1.0' ],
+164 silly audit   'get-tsconfig': [ '4.14.0' ],
+164 silly audit   globalthis: [ '1.0.4' ],
+164 silly audit   gopd: [ '1.2.0' ],
+164 silly audit   'graceful-fs': [ '4.2.11' ],
+164 silly audit   'has-bigints': [ '1.1.0' ],
+164 silly audit   'has-flag': [ '4.0.0' ],
+164 silly audit   'has-property-descriptors': [ '1.0.2' ],
+164 silly audit   'has-proto': [ '1.2.0' ],
+164 silly audit   'has-symbols': [ '1.1.0' ],
+164 silly audit   'has-tostringtag': [ '1.0.2' ],
+164 silly audit   hasown: [ '2.0.3' ],
+164 silly audit   'hermes-estree': [ '0.25.1' ],
+164 silly audit   'hermes-parser': [ '0.25.1' ],
+164 silly audit   'import-fresh': [ '3.3.1' ],
+164 silly audit   imurmurhash: [ '0.1.4' ],
+164 silly audit   'internal-slot': [ '1.1.0' ],
+164 silly audit   'is-array-buffer': [ '3.0.5' ],
+164 silly audit   'is-async-function': [ '2.1.1' ],
+164 silly audit   'is-bigint': [ '1.1.0' ],
+164 silly audit   'is-boolean-object': [ '1.2.2' ],
+164 silly audit   'is-bun-module': [ '2.0.0' ],
+164 silly audit   'is-callable': [ '1.2.7' ],
+164 silly audit   'is-core-module': [ '2.16.2' ],
+164 silly audit   'is-data-view': [ '1.0.2' ],
+164 silly audit   'is-date-object': [ '1.1.0' ],
+164 silly audit   'is-extglob': [ '2.1.1' ],
+164 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+164 silly audit   'is-generator-function': [ '1.1.2' ],
+164 silly audit   'is-glob': [ '4.0.3' ],
+164 silly audit   'is-map': [ '2.0.3' ],
+164 silly audit   'is-negative-zero': [ '2.0.3' ],
+164 silly audit   'is-number': [ '7.0.0' ],
+164 silly audit   'is-number-object': [ '1.1.1' ],
+164 silly audit   'is-regex': [ '1.2.1' ],
+164 silly audit   'is-set': [ '2.0.3' ],
+164 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+164 silly audit   'is-string': [ '1.1.1' ],
+164 silly audit   'is-symbol': [ '1.1.1' ],
+164 silly audit   'is-typed-array': [ '1.1.15' ],
+164 silly audit   'is-weakmap': [ '2.0.2' ],
+164 silly audit   'is-weakref': [ '1.1.1' ],
+164 silly audit   'is-weakset': [ '2.0.4' ],
+164 silly audit   isarray: [ '2.0.5' ],
+164 silly audit   isexe: [ '2.0.0' ],
+164 silly audit   'iterator.prototype': [ '1.1.5' ],
+164 silly audit   jiti: [ '2.7.0' ],
+164 silly audit   'js-tokens': [ '4.0.0' ],
+164 silly audit   'js-yaml': [ '4.1.1' ],
+164 silly audit   jsesc: [ '3.1.0' ],
+164 silly audit   'json-buffer': [ '3.0.1' ],
+164 silly audit   'json-schema-traverse': [ '0.4.1' ],
+164 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+164 silly audit   json5: [ '2.2.3', '1.0.2' ],
+164 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+164 silly audit   keyv: [ '4.5.4' ],
+164 silly audit   'language-subtag-registry': [ '0.3.23' ],
+164 silly audit   'language-tags': [ '1.0.9' ],
+164 silly audit   levn: [ '0.4.1' ],
+164 silly audit   lightningcss: [ '1.32.0' ],
+164 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+164 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+164 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+164 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+164 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+164 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+164 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+164 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+164 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+164 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+164 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+164 silly audit   'locate-path': [ '6.0.0' ],
+164 silly audit   'lodash.merge': [ '4.6.2' ],
+164 silly audit   'loose-envify': [ '1.4.0' ],
+164 silly audit   'lru-cache': [ '5.1.1' ],
+164 silly audit   'magic-string': [ '0.30.21' ],
+164 silly audit   'math-intrinsics': [ '1.1.0' ],
+164 silly audit   merge2: [ '1.4.1' ],
+164 silly audit   micromatch: [ '4.0.8' ],
+164 silly audit   minimist: [ '1.2.8' ],
+164 silly audit   ms: [ '2.1.3' ],
+164 silly audit   nanoid: [ '3.3.12' ],
+164 silly audit   'napi-postinstall': [ '0.3.4' ],
+164 silly audit   'natural-compare': [ '1.4.0' ],
+164 silly audit   next: [ '16.2.6' ],
+164 silly audit   postcss: [ '8.4.31', '8.5.14' ],
+164 silly audit   'node-exports-info': [ '1.6.0' ],
+164 silly audit   'node-releases': [ '2.0.38' ],
+164 silly audit   'object-assign': [ '4.1.1' ],
+164 silly audit   'object-inspect': [ '1.13.4' ],
+164 silly audit   'object-keys': [ '1.1.1' ],
+164 silly audit   'object.assign': [ '4.1.7' ],
+164 silly audit   'object.entries': [ '1.1.9' ],
+164 silly audit   'object.fromentries': [ '2.0.8' ],
+164 silly audit   'object.groupby': [ '1.0.3' ],
+164 silly audit   'object.values': [ '1.2.1' ],
+164 silly audit   optionator: [ '0.9.4' ],
+164 silly audit   'own-keys': [ '1.0.1' ],
+164 silly audit   'p-limit': [ '3.1.0' ],
+164 silly audit   'p-locate': [ '5.0.0' ],
+164 silly audit   'parent-module': [ '1.0.1' ],
+164 silly audit   'path-exists': [ '4.0.0' ],
+164 silly audit   'path-key': [ '3.1.1' ],
+164 silly audit   'path-parse': [ '1.0.7' ],
+164 silly audit   picocolors: [ '1.1.1' ],
+164 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+164 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+164 silly audit   'prelude-ls': [ '1.2.1' ],
+164 silly audit   'prop-types': [ '15.8.1' ],
+164 silly audit   punycode: [ '2.3.1' ],
+164 silly audit   'queue-microtask': [ '1.2.3' ],
+164 silly audit   react: [ '19.2.4' ],
+164 silly audit   'react-dom': [ '19.2.4' ],
+164 silly audit   'react-is': [ '16.13.1' ],
+164 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+164 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+164 silly audit   resolve: [ '2.0.0-next.6' ],
+164 silly audit   'resolve-from': [ '4.0.0' ],
+164 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+164 silly audit   reusify: [ '1.1.0' ],
+164 silly audit   'run-parallel': [ '1.2.0' ],
+164 silly audit   'safe-array-concat': [ '1.1.4' ],
+164 silly audit   'safe-push-apply': [ '1.0.0' ],
+164 silly audit   'safe-regex-test': [ '1.1.0' ],
+164 silly audit   scheduler: [ '0.27.0' ],
+164 silly audit   'set-function-length': [ '1.2.2' ],
+164 silly audit   'set-function-name': [ '2.0.2' ],
+164 silly audit   'set-proto': [ '1.0.0' ],
+164 silly audit   sharp: [ '0.34.5' ],
+164 silly audit   'shebang-command': [ '2.0.0' ],
+164 silly audit   'shebang-regex': [ '3.0.0' ],
+164 silly audit   'side-channel': [ '1.1.0' ],
+164 silly audit   'side-channel-list': [ '1.0.1' ],
+164 silly audit   'side-channel-map': [ '1.0.1' ],
+164 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+164 silly audit   'source-map-js': [ '1.2.1' ],
+164 silly audit   'stable-hash': [ '0.0.5' ],
+164 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+164 silly audit   'string.prototype.includes': [ '2.0.1' ],
+164 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+164 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+164 silly audit   'string.prototype.trim': [ '1.2.10' ],
+164 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+164 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+164 silly audit   'strip-bom': [ '3.0.0' ],
+164 silly audit   'strip-json-comments': [ '3.1.1' ],
+164 silly audit   'styled-jsx': [ '5.1.6' ],
+164 silly audit   'supports-color': [ '7.2.0' ],
+164 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+164 silly audit   tailwindcss: [ '4.3.0' ],
+164 silly audit   tapable: [ '2.3.3' ],
+164 silly audit   tinyglobby: [ '0.2.16' ],
+164 silly audit   fdir: [ '6.5.0' ],
+164 silly audit   'to-regex-range': [ '5.0.1' ],
+164 silly audit   'ts-api-utils': [ '2.5.0' ],
+164 silly audit   'tsconfig-paths': [ '3.15.0' ],
+164 silly audit   tslib: [ '2.8.1' ],
+164 silly audit   'type-check': [ '0.4.0' ],
+164 silly audit   'typed-array-buffer': [ '1.0.3' ],
+164 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+164 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+164 silly audit   'typed-array-length': [ '1.0.7' ],
+164 silly audit   typescript: [ '5.9.3' ],
+164 silly audit   'typescript-eslint': [ '8.59.2' ],
+164 silly audit   'unbox-primitive': [ '1.1.0' ],
+164 silly audit   'undici-types': [ '6.21.0' ],
+164 silly audit   'unrs-resolver': [ '1.11.1' ],
+164 silly audit   'update-browserslist-db': [ '1.2.3' ],
+164 silly audit   'uri-js': [ '4.4.1' ],
+164 silly audit   which: [ '2.0.2' ],
+164 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+164 silly audit   'which-builtin-type': [ '1.2.1' ],
+164 silly audit   'which-collection': [ '1.0.2' ],
+164 silly audit   'which-typed-array': [ '1.1.20' ],
+164 silly audit   'word-wrap': [ '1.2.5' ],
+164 silly audit   yallist: [ '3.1.1' ],
+164 silly audit   'yocto-queue': [ '0.1.0' ],
+164 silly audit   zod: [ '4.4.3' ],
+164 silly audit   'zod-validation-error': [ '4.0.2' ],
+164 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.0' ]
+164 silly audit }
+165 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-x64-msvc
+166 silly reify mark deleted [
+166 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+166 silly reify ]
+167 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+168 silly reify mark deleted [
+168 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+168 silly reify ]
+169 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+170 silly reify mark deleted [
+170 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+170 silly reify ]
+171 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-wasm32-wasi
+172 silly reify mark deleted [
+172 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-wasm32-wasi'
+172 silly reify ]
+173 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-musl
+174 silly reify mark deleted [
+174 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-musl'
+174 silly reify ]
+175 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-gnu
+176 silly reify mark deleted [
+176 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+176 silly reify ]
+177 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+178 silly reify mark deleted [
+178 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+178 silly reify ]
+179 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+180 silly reify mark deleted [
+180 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+180 silly reify ]
+181 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+182 silly reify mark deleted [
+182 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+182 silly reify ]
+183 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+184 silly reify mark deleted [
+184 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+184 silly reify ]
+185 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-musl
+186 silly reify mark deleted [
+186 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+186 silly reify ]
+187 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+188 silly reify mark deleted [
+188 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+188 silly reify ]
+189 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+190 silly reify mark deleted [
+190 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+190 silly reify ]
+191 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-freebsd-x64
+192 silly reify mark deleted [
+192 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-freebsd-x64'
+192 silly reify ]
+193 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+194 silly reify mark deleted [
+194 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+194 silly reify ]
+195 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-darwin-x64
+196 silly reify mark deleted [
+196 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-darwin-x64'
+196 silly reify ]
+197 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm64
+198 silly reify mark deleted [
+198 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm64'
+198 silly reify ]
+199 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm-eabi
+200 silly reify mark deleted [
+200 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@unrs/resolver-binding-android-arm-eabi'
+200 silly reify ]
+201 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-x64-msvc
+202 silly reify mark deleted [
+202 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+202 silly reify ]
+203 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+204 silly reify mark deleted [
+204 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+204 silly reify ]
+205 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-musl
+206 silly reify mark deleted [
+206 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-musl'
+206 silly reify ]
+207 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-gnu
+208 silly reify mark deleted [
+208 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+208 silly reify ]
+209 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+210 silly reify mark deleted [
+210 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+210 silly reify ]
+211 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-musl
+212 silly reify mark deleted [
+212 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+212 silly reify ]
+213 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+214 silly reify mark deleted [
+214 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+214 silly reify ]
+215 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-freebsd-x64
+216 silly reify mark deleted [
+216 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-freebsd-x64'
+216 silly reify ]
+217 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-x64
+218 silly reify mark deleted [
+218 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-darwin-x64'
+218 silly reify ]
+219 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-android-arm64
+220 silly reify mark deleted [
+220 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@tailwindcss/oxide-android-arm64'
+220 silly reify ]
+221 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-x64-msvc
+222 silly reify mark deleted [
+222 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-x64-msvc'
+222 silly reify ]
+223 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-arm64-msvc
+224 silly reify mark deleted [
+224 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-win32-arm64-msvc'
+224 silly reify ]
+225 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-gnu
+226 silly reify mark deleted [
+226 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-gnu'
+226 silly reify ]
+227 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-musl
+228 silly reify mark deleted [
+228 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-x64-musl'
+228 silly reify ]
+229 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-musl
+230 silly reify mark deleted [
+230 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-musl'
+230 silly reify ]
+231 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-gnu
+232 silly reify mark deleted [
+232 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-linux-arm64-gnu'
+232 silly reify ]
+233 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-x64
+234 silly reify mark deleted [
+234 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@next/swc-darwin-x64'
+234 silly reify ]
+235 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-x64
+236 silly reify mark deleted [
+236 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-x64'
+236 silly reify ]
+237 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-arm64
+238 silly reify mark deleted [
+238 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-arm64'
+238 silly reify ]
+239 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-ia32
+240 silly reify mark deleted [
+240 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-win32-ia32'
+240 silly reify ]
+241 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-wasm32
+242 silly reify mark deleted [
+242 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-wasm32'
+242 silly reify ]
+243 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-arm64
+244 silly reify mark deleted [
+244 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-arm64'
+244 silly reify ]
+245 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-x64
+246 silly reify mark deleted [
+246 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linuxmusl-x64'
+246 silly reify ]
+247 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-x64
+248 silly reify mark deleted [
+248 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-x64'
+248 silly reify ]
+249 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-s390x
+250 silly reify mark deleted [
+250 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-s390x'
+250 silly reify ]
+251 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-riscv64
+252 silly reify mark deleted [
+252 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-riscv64'
+252 silly reify ]
+253 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-ppc64
+254 silly reify mark deleted [
+254 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-ppc64'
+254 silly reify ]
+255 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm64
+256 silly reify mark deleted [
+256 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm64'
+256 silly reify ]
+257 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-x64
+258 silly reify mark deleted [
+258 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-x64'
+258 silly reify ]
+259 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm
+260 silly reify mark deleted [
+260 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-linux-arm'
+260 silly reify ]
+261 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-arm64
+262 silly reify mark deleted [
+262 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+262 silly reify ]
+263 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-x64
+264 silly reify mark deleted [
+264 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-x64'
+264 silly reify ]
+265 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-s390x
+266 silly reify mark deleted [
+266 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-s390x'
+266 silly reify ]
+267 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-riscv64
+268 silly reify mark deleted [
+268 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-riscv64'
+268 silly reify ]
+269 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-ppc64
+270 silly reify mark deleted [
+270 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-ppc64'
+270 silly reify ]
+271 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm64
+272 silly reify mark deleted [
+272 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm64'
+272 silly reify ]
+273 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm
+274 silly reify mark deleted [
+274 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-linux-arm'
+274 silly reify ]
+275 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-darwin-x64
+276 silly reify mark deleted [
+276 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-libvips-darwin-x64'
+276 silly reify ]
+277 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-darwin-x64
+278 silly reify mark deleted [
+278 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/@img/sharp-darwin-x64'
+278 silly reify ]
+279 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-x64-msvc
+280 silly reify mark deleted [
+280 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-x64-msvc'
+280 silly reify ]
+281 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-arm64-msvc
+282 silly reify mark deleted [
+282 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-win32-arm64-msvc'
+282 silly reify ]
+283 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-gnu
+284 silly reify mark deleted [
+284 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-gnu'
+284 silly reify ]
+285 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-musl
+286 silly reify mark deleted [
+286 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-x64-musl'
+286 silly reify ]
+287 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-gnu
+288 silly reify mark deleted [
+288 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-gnu'
+288 silly reify ]
+289 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-musl
+290 silly reify mark deleted [
+290 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm64-musl'
+290 silly reify ]
+291 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm-gnueabihf
+292 silly reify mark deleted [
+292 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-linux-arm-gnueabihf'
+292 silly reify ]
+293 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-x64
+294 silly reify mark deleted [
+294 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-darwin-x64'
+294 silly reify ]
+295 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-freebsd-x64
+296 silly reify mark deleted [
+296 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-freebsd-x64'
+296 silly reify ]
+297 verbose reify failed optional dependency /Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-android-arm64
+298 silly reify mark deleted [
+298 silly reify   '/Users/poojithagobburu/carryon_website/carryon-next/node_modules/lightningcss-android-arm64'
+298 silly reify ]
+299 silly audit bulk request failed undefined
+300 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/audits/quick failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+300 verbose audit error     at ClientRequest.<anonymous> (/Users/poojithagobburu/.nvm/versions/node/v22.19.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+300 verbose audit error     at ClientRequest.emit (node:events:519:28)
+300 verbose audit error     at emitErrorEvent (node:_http_client:105:11)
+300 verbose audit error     at _destroy (node:_http_client:898:9)
+300 verbose audit error     at onSocketNT (node:_http_client:918:5)
+300 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+300 verbose audit error   code: 'ENOTFOUND',
+300 verbose audit error   errno: 'ENOTFOUND',
+300 verbose audit error   syscall: 'getaddrinfo',
+300 verbose audit error   hostname: 'registry.npmjs.org',
+300 verbose audit error   type: 'system'
+300 verbose audit error }
+301 silly audit error undefined
+302 silly audit report null
+303 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+304 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz 0ms (cache hit)
+305 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+306 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+307 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+308 http cache napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 0ms (cache hit)
+309 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+310 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+311 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+312 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz 0ms (cache hit)
+313 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.2.tgz 0ms (cache hit)
+314 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+315 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.2.tgz 0ms (cache hit)
+316 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+317 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.2.tgz 0ms (cache hit)
+318 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.59.2.tgz 0ms (cache hit)
+319 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.59.2.tgz 0ms (cache hit)
+320 http cache @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.59.2.tgz 0ms (cache hit)
+321 http cache @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.59.2.tgz 0ms (cache hit)
+322 http cache @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.59.2.tgz 0ms (cache hit)
+323 http cache @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.59.2.tgz 0ms (cache hit)
+324 http cache @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.59.2.tgz 0ms (cache hit)
+325 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz 0ms (cache hit)
+326 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.40.tgz 0ms (cache hit)
+327 http cache @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.0.tgz 0ms (cache hit)
+328 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.0.tgz 0ms (cache hit)
+329 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz 0ms (cache hit)
+330 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.0.tgz 0ms (cache hit)
+331 http cache @humanfs/types@https://registry.npmjs.org/@humanfs/types/-/types-0.15.0.tgz 0ms (cache hit)
+332 http cache @tailwindcss/oxide-darwin-arm64@https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.3.0.tgz 0ms (cache hit)
+333 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-16.2.6.tgz 0ms (cache hit)
+334 http cache @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-16.2.6.tgz 0ms (cache hit)
+335 http cache @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.8.tgz 0ms (cache hit)
+336 http cache @humanfs/core@https://registry.npmjs.org/@humanfs/core/-/core-0.19.2.tgz 0ms (cache hit)
+337 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 0ms (cache hit)
+338 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 0ms (cache hit)
+339 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 0ms (cache hit)
+340 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz 0ms (cache hit)
+341 http cache zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz 0ms (cache hit)
+342 http cache @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz 0ms (cache hit)
+343 http cache typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.59.2.tgz 0ms (cache hit)
+344 http cache @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.3.tgz 0ms (cache hit)
+345 http cache ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.5.0.tgz 0ms (cache hit)
+346 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz 0ms (cache hit)
+347 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.0.tgz 0ms (cache hit)
+348 http cache safe-array-concat@https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.4.tgz 0ms (cache hit)
+349 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.14.tgz 0ms (cache hit)
+350 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+351 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz 0ms (cache hit)
+352 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.38.tgz 0ms (cache hit)
+353 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz 0ms (cache hit)
+354 http cache next@https://registry.npmjs.org/next/-/next-16.2.6.tgz 0ms (cache hit)
+355 http cache lightningcss-darwin-arm64@https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.32.0.tgz 0ms (cache hit)
+356 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 0ms (cache hit)
+357 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.2.tgz 0ms (cache hit)
+358 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+359 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz 0ms (cache hit)
+360 http cache @next/swc-darwin-arm64@https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.2.6.tgz 0ms (cache hit)
+361 http cache get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.0.tgz 0ms (cache hit)
+362 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 0ms (cache hit)
+363 http cache eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.1.1.tgz 0ms (cache hit)
+364 http cache eslint-import-resolver-node@https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.10.tgz 0ms (cache hit)
+365 http cache eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-16.2.6.tgz 0ms (cache hit)
+366 http cache es-iterator-helpers@https://registry.npmjs.org/es-iterator-helpers/-/es-iterator-helpers-1.3.2.tgz 0ms (cache hit)
+367 http cache flatted@https://registry.npmjs.org/flatted/-/flatted-3.4.2.tgz 0ms (cache hit)
+368 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.21.2.tgz 0ms (cache hit)
+369 http cache es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.2.tgz 0ms (cache hit)
+370 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz 0ms (cache hit)
+371 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001792.tgz 0ms (cache hit)
+372 http cache call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.9.tgz 0ms (cache hit)
+373 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.353.tgz 0ms (cache hit)
+374 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.28.tgz 0ms (cache hit)
+375 http cache axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.4.tgz 0ms (cache hit)
+376 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz 0ms (cache hit)
+377 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 0ms (cache hit)
+378 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 0ms (cache hit)
+379 http cache ajv@https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz 0ms (cache hit)
+380 http cache json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 0ms (cache hit)
+381 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.6.tgz 0ms (cache hit)
+382 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 0ms (cache hit)
+383 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz 0ms (cache hit)
+384 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+385 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+386 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz. Extracting by manifest.
+387 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+388 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+389 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+390 silly tarball no local data for napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz. Extracting by manifest.
+391 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+392 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+393 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+394 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz. Extracting by manifest.
+395 silly tarball no local data for @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.2.tgz. Extracting by manifest.
+396 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz. Extracting by manifest.
+397 silly tarball no local data for @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.2.tgz. Extracting by manifest.
+398 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz. Extracting by manifest.
+399 silly tarball no local data for @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.2.tgz. Extracting by manifest.
+400 silly tarball no local data for @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.59.2.tgz. Extracting by manifest.
+401 silly tarball no local data for @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.59.2.tgz. Extracting by manifest.
+402 silly tarball no local data for @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.59.2.tgz. Extracting by manifest.
+403 silly tarball no local data for @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.59.2.tgz. Extracting by manifest.
+404 silly tarball no local data for @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.59.2.tgz. Extracting by manifest.
+405 silly tarball no local data for @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.59.2.tgz. Extracting by manifest.
+406 silly tarball no local data for @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.59.2.tgz. Extracting by manifest.
+407 silly tarball no local data for @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz. Extracting by manifest.
+408 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.40.tgz. Extracting by manifest.
+409 silly tarball no local data for @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.0.tgz. Extracting by manifest.
+410 silly tarball no local data for @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.0.tgz. Extracting by manifest.
+411 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz. Extracting by manifest.
+412 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.0.tgz. Extracting by manifest.
+413 silly tarball no local data for @humanfs/types@https://registry.npmjs.org/@humanfs/types/-/types-0.15.0.tgz. Extracting by manifest.
+414 silly tarball no local data for @tailwindcss/oxide-darwin-arm64@https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.3.0.tgz. Extracting by manifest.
+415 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-16.2.6.tgz. Extracting by manifest.
+416 silly tarball no local data for @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-16.2.6.tgz. Extracting by manifest.
+417 silly tarball no local data for @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.8.tgz. Extracting by manifest.
+418 silly tarball no local data for @humanfs/core@https://registry.npmjs.org/@humanfs/core/-/core-0.19.2.tgz. Extracting by manifest.
+419 silly tarball no local data for @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz. Extracting by manifest.
+420 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz. Extracting by manifest.
+421 silly tarball no local data for @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz. Extracting by manifest.
+422 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz. Extracting by manifest.
+423 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz. Extracting by manifest.
+424 silly tarball no local data for @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz. Extracting by manifest.
+425 silly tarball no local data for typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.59.2.tgz. Extracting by manifest.
+426 silly tarball no local data for @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.3.tgz. Extracting by manifest.
+427 silly tarball no local data for ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.5.0.tgz. Extracting by manifest.
+428 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz. Extracting by manifest.
+429 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.0.tgz. Extracting by manifest.
+430 silly tarball no local data for safe-array-concat@https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.4.tgz. Extracting by manifest.
+431 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.14.tgz. Extracting by manifest.
+432 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz. Extracting by manifest.
+433 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz. Extracting by manifest.
+434 silly tarball no local data for node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.38.tgz. Extracting by manifest.
+435 silly tarball no local data for side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz. Extracting by manifest.
+436 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-16.2.6.tgz. Extracting by manifest.
+437 silly tarball no local data for lightningcss-darwin-arm64@https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.32.0.tgz. Extracting by manifest.
+438 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz. Extracting by manifest.
+439 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.2.tgz. Extracting by manifest.
+440 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz. Extracting by manifest.
+441 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz. Extracting by manifest.
+442 silly tarball no local data for @next/swc-darwin-arm64@https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.2.6.tgz. Extracting by manifest.
+443 silly tarball no local data for get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.0.tgz. Extracting by manifest.
+444 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz. Extracting by manifest.
+445 silly tarball no local data for eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.1.1.tgz. Extracting by manifest.
+446 silly tarball no local data for eslint-import-resolver-node@https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.10.tgz. Extracting by manifest.
+447 silly tarball no local data for eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-16.2.6.tgz. Extracting by manifest.
+448 silly tarball no local data for es-iterator-helpers@https://registry.npmjs.org/es-iterator-helpers/-/es-iterator-helpers-1.3.2.tgz. Extracting by manifest.
+449 silly tarball no local data for flatted@https://registry.npmjs.org/flatted/-/flatted-3.4.2.tgz. Extracting by manifest.
+450 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.21.2.tgz. Extracting by manifest.
+451 silly tarball no local data for es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.2.tgz. Extracting by manifest.
+452 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz. Extracting by manifest.
+453 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001792.tgz. Extracting by manifest.
+454 silly tarball no local data for call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.9.tgz. Extracting by manifest.
+455 silly tarball no local data for electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.353.tgz. Extracting by manifest.
+456 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.28.tgz. Extracting by manifest.
+457 silly tarball no local data for axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.4.tgz. Extracting by manifest.
+458 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz. Extracting by manifest.
+459 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz. Extracting by manifest.
+460 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz. Extracting by manifest.
+461 silly tarball no local data for ajv@https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz. Extracting by manifest.
+462 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz. Extracting by manifest.
+463 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.6.tgz. Extracting by manifest.
+464 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz. Extracting by manifest.
+465 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz. Extracting by manifest.
+466 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+467 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 1 failed with ENOTFOUND
+468 http fetch GET https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz attempt 1 failed with ENOTFOUND
+469 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 1 failed with ENOTFOUND
+470 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 1 failed with ENOTFOUND
+471 http fetch GET https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz attempt 1 failed with ENOTFOUND
+472 http fetch GET https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 1 failed with ENOTFOUND
+473 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 1 failed with ENOTFOUND
+474 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 1 failed with ENOTFOUND
+475 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 1 failed with ENOTFOUND
+476 http fetch GET https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz attempt 1 failed with ENOTFOUND
+477 http fetch GET https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.2.tgz attempt 1 failed with ENOTFOUND
+478 http fetch GET https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz attempt 1 failed with ENOTFOUND
+479 http fetch GET https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.2.tgz attempt 1 failed with ENOTFOUND
+480 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz attempt 1 failed with ENOTFOUND
+481 http fetch GET https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.2.tgz attempt 1 failed with ENOTFOUND
+482 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with ENOTFOUND
+483 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 2 failed with ENOTFOUND
+484 http fetch GET https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz attempt 2 failed with ENOTFOUND
+485 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 2 failed with ENOTFOUND
+486 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 2 failed with ENOTFOUND
+487 http fetch GET https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz attempt 2 failed with ENOTFOUND
+488 http fetch GET https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 2 failed with ENOTFOUND
+489 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 2 failed with ENOTFOUND
+490 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 2 failed with ENOTFOUND
+491 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 2 failed with ENOTFOUND
+492 http fetch GET https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz attempt 2 failed with ENOTFOUND
+493 http fetch GET https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.2.tgz attempt 2 failed with ENOTFOUND
+494 http fetch GET https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz attempt 2 failed with ENOTFOUND
+495 http fetch GET https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.2.tgz attempt 2 failed with ENOTFOUND
+496 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz attempt 2 failed with ENOTFOUND
+497 http fetch GET https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.2.tgz attempt 2 failed with ENOTFOUND
+498 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with ENOTFOUND
+499 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 3 failed with ENOTFOUND
+500 http fetch GET https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz attempt 3 failed with ENOTFOUND
+501 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 3 failed with ENOTFOUND
+502 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 3 failed with ENOTFOUND
+503 http fetch GET https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz attempt 3 failed with ENOTFOUND
+504 http fetch GET https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 3 failed with ENOTFOUND
+505 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 3 failed with ENOTFOUND
+506 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 3 failed with ENOTFOUND
+507 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 3 failed with ENOTFOUND
+508 http fetch GET https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz attempt 3 failed with ENOTFOUND
+509 http fetch GET https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.2.tgz attempt 3 failed with ENOTFOUND
+510 http fetch GET https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz attempt 3 failed with ENOTFOUND
+511 http fetch GET https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.2.tgz attempt 3 failed with ENOTFOUND
+512 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz attempt 3 failed with ENOTFOUND
+513 http fetch GET https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.2.tgz attempt 3 failed with ENOTFOUND
+514 verbose cwd /Users/poojithagobburu/carryon_website/carryon-next
+515 verbose os Darwin 25.4.0
+516 verbose node v22.19.0
+517 verbose npm  v10.9.3
+518 error Exit handler never called!
+519 error This is an error with npm itself. Please report this error at:
+520 error   <https://github.com/npm/cli/issues>
+521 verbose exit 1
+522 verbose code 1
+523 error A complete log of this run can be found in: /Users/poojithagobburu/carryon_website/carryon-next/.npm-cache/_logs/2026-05-09T16_27_44_233Z-debug-0.log

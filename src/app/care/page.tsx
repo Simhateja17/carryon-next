@@ -104,7 +104,7 @@ export default function CarePage() {
           </div>
           <div className="about-values">
             <div className="value-card">
-              <div className="num">i.</div>
+              <div className="num">1.</div>
               <h3>Strengthen Community</h3>
               <p>
                 We support local SMEs with subsidised delivery rates, helping small
@@ -112,7 +112,7 @@ export default function CarePage() {
               </p>
             </div>
             <div className="value-card">
-              <div className="num">ii.</div>
+              <div className="num">2.</div>
               <h3>Create Opportunity</h3>
               <p>
                 From driver scholarships to skill-building partnerships, we open
@@ -120,7 +120,7 @@ export default function CarePage() {
               </p>
             </div>
             <div className="value-card">
-              <div className="num">iii.</div>
+              <div className="num">3.</div>
               <h3>Enable Access</h3>
               <p>
                 Free essential deliveries during emergencies — medicines, food,
@@ -204,7 +204,7 @@ export default function CarePage() {
             </h2>
             <div className="btn-row">
               <Link
-                href="/contact"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ background: "white", color: "var(--navy)" }}
               >

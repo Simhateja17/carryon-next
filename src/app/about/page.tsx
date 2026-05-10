@@ -149,7 +149,7 @@ export default function AboutPage() {
           </div>
           <div className="about-values">
             <div className="value-card">
-              <div className="num">i.</div>
+              <div className="num">1.</div>
               <h3>Trust</h3>
               <p>
                 Every driver is verified. Every transaction is encrypted. Every
@@ -158,7 +158,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="value-card">
-              <div className="num">ii.</div>
+              <div className="num">2.</div>
               <h3>Speed</h3>
               <p>
                 The shortest distance between two points is rarely a straight line
@@ -166,7 +166,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="value-card">
-              <div className="num">iii.</div>
+              <div className="num">3.</div>
               <h3>Care</h3>
               <p>
                 We treat your parcels like our own — and we treat our drivers like
@@ -211,7 +211,7 @@ export default function AboutPage() {
             </p>
             <div className="btn-row">
               <Link
-                href="/contact"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ background: "white", color: "var(--navy)" }}
               >

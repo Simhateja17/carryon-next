@@ -119,7 +119,7 @@ export default function FleetPage() {
                 I agree to the Privacy Policy and Fleet Partner Terms
               </label>
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ width: "100%", justifyContent: "center", marginTop: 20 }}
               >
@@ -149,49 +149,49 @@ export default function FleetPage() {
           </div>
           <div className="step-list" style={{ maxWidth: 880, margin: "0 auto" }}>
             <div className="step-row">
-              <div className="n">i</div>
+              <div className="n">1</div>
               <div>
                 <h5>Register as a fleet owner</h5>
                 <p>Submit company details and KYC documents.</p>
               </div>
             </div>
             <div className="step-row">
-              <div className="n">ii</div>
+              <div className="n">2</div>
               <div>
                 <h5>Log in as a fleet owner</h5>
                 <p>Access your dedicated fleet dashboard.</p>
               </div>
             </div>
             <div className="step-row">
-              <div className="n">iii</div>
+              <div className="n">3</div>
               <div>
                 <h5>Register vehicles</h5>
                 <p>Upload RC, insurance, and PUC documents.</p>
               </div>
             </div>
             <div className="step-row">
-              <div className="n">iv</div>
+              <div className="n">4</div>
               <div>
                 <h5>Get vehicles approved</h5>
                 <p>Verification typically completes within 48 hours.</p>
               </div>
             </div>
             <div className="step-row">
-              <div className="n">v</div>
+              <div className="n">5</div>
               <div>
                 <h5>Register drivers</h5>
                 <p>Add driver profiles with licenses &amp; ID.</p>
               </div>
             </div>
             <div className="step-row">
-              <div className="n">vi</div>
+              <div className="n">6</div>
               <div>
                 <h5>Get drivers approved</h5>
                 <p>Background &amp; document verification.</p>
               </div>
             </div>
             <div className="step-row">
-              <div className="n">vii</div>
+              <div className="n">7</div>
               <div>
                 <h5>Pair drivers and vehicles</h5>
                 <p>Assign and start accepting orders.</p>
@@ -259,14 +259,14 @@ export default function FleetPage() {
             </h2>
             <div className="btn-row">
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ background: "white", color: "var(--navy)" }}
               >
                 Register Fleet
               </Link>
               <Link
-                href="/contact"
+                href="/#download-app"
                 className="btn btn-ghost-line"
                 style={{ color: "white", borderColor: "rgba(255,255,255,.3)" }}
               >

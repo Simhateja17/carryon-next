@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const ArrowRight = () => (
@@ -22,8 +23,14 @@ export default function Navbar() {
     <div className="nav-shell">
       <nav className="nav">
         <Link href="/" className="brand" onClick={closeAll}>
-          <span className="mark">C</span>
-          Carry<em>On</em>
+          <Image
+            src="/nav-logo.png"
+            alt="Carry On logo"
+            width={208}
+            height={56}
+            className="brand-icon"
+            priority
+          />
         </Link>
         <ul className="nav-links">
           <li>
@@ -70,6 +77,11 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
+                <Link href="/founders" onClick={closeAll}>
+                  Founders
+                </Link>
+              </li>
+              <li>
                 <Link href="/careers" onClick={closeAll}>
                   Careers
                 </Link>
@@ -99,7 +111,7 @@ export default function Navbar() {
           <Link href="/signup" className="btn-ghost" onClick={closeAll}>
             Sign Up
           </Link>
-          <Link href="/" className="btn-cta" onClick={closeAll}>
+          <Link href="/#download-app" className="btn-cta" onClick={closeAll}>
             Book Delivery
             <ArrowRight />
           </Link>

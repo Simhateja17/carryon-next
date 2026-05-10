@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const ArrowRight = ({ className = "arrow" }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -116,7 +117,7 @@ export default function DriverPage() {
                 Send me promotional updates &amp; mission bonuses
               </label>
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ width: "100%", justifyContent: "center", marginTop: 24 }}
               >
@@ -272,21 +273,21 @@ export default function DriverPage() {
               </p>
               <div className="step-list" style={{ marginTop: 32 }}>
                 <div className="step-row">
-                  <div className="n">i</div>
+                  <div className="n">1</div>
                   <div>
                     <h5>View available orders</h5>
                     <p>Filter by distance, vehicle, and earning.</p>
                   </div>
                 </div>
                 <div className="step-row">
-                  <div className="n">ii</div>
+                  <div className="n">2</div>
                   <div>
                     <h5>Pick &amp; deliver</h5>
                     <p>Accept the orders that fit your route.</p>
                   </div>
                 </div>
                 <div className="step-row">
-                  <div className="n">iii</div>
+                  <div className="n">3</div>
                   <div>
                     <h5>Check earnings anytime</h5>
                     <p>Daily payouts straight to your account.</p>
@@ -296,39 +297,14 @@ export default function DriverPage() {
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <div className="phone-mock" style={{ margin: 0 }}>
-                <div
-                  className="phone-screen"
-                  style={{
-                    background: "linear-gradient(180deg, #0F172A 0%, #1E3A8A 100%)",
-                    padding: 24,
-                  }}
-                >
-                  <svg width="100%" height="100%" viewBox="0 0 240 480" fill="none">
-                    <text x="20" y="32" fontFamily="serif" fontSize="16" fontStyle="italic" fill="white">Hello, Ravi</text>
-                    <text x="20" y="50" fontSize="11" fill="rgba(255,255,255,.6)" letterSpacing="1">YOU&apos;RE ONLINE</text>
-                    <circle cx="218" cy="36" r="6" fill="#10B981" />
-                    <rect x="20" y="70" width="200" height="80" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.1)" />
-                    <text x="36" y="96" fontSize="10" fill="rgba(255,255,255,.6)" letterSpacing="1">TODAY&apos;S EARNINGS</text>
-                    <text x="36" y="128" fontFamily="serif" fontSize="32" fill="white">₹ 2,840</text>
-                    <rect x="20" y="170" width="200" height="100" rx="16" fill="white" />
-                    <rect x="36" y="186" width="60" height="14" rx="3" fill="#EFF6FF" />
-                    <text x="44" y="197" fontSize="9" fontWeight="700" fill="#2563EB" letterSpacing="1">PRIORITY</text>
-                    <text x="36" y="224" fontSize="11" fontWeight="600" fill="#0F172A">Andheri → Bandra</text>
-                    <text x="36" y="240" fontSize="10" fill="#64748B">2.4 km · 12 min</text>
-                    <text x="36" y="258" fontFamily="serif" fontSize="20" fill="#0F172A">₹ 180</text>
-                    <rect x="148" y="232" width="60" height="28" rx="14" fill="#2563EB" />
-                    <text x="178" y="249" fontSize="11" fontWeight="600" fill="white" textAnchor="middle">Accept</text>
-                    <rect x="20" y="284" width="200" height="100" rx="16" fill="white" />
-                    <rect x="36" y="300" width="60" height="14" rx="3" fill="#F0FDF4" />
-                    <text x="44" y="311" fontSize="9" fontWeight="700" fill="#059669" letterSpacing="1">REGULAR</text>
-                    <text x="36" y="338" fontSize="11" fontWeight="600" fill="#0F172A">Powai → Worli</text>
-                    <text x="36" y="354" fontSize="10" fill="#64748B">8.1 km · 28 min</text>
-                    <text x="36" y="372" fontFamily="serif" fontSize="20" fill="#0F172A">₹ 240</text>
-                    <rect x="148" y="346" width="60" height="28" rx="14" fill="#2563EB" />
-                    <text x="178" y="363" fontSize="11" fontWeight="600" fill="white" textAnchor="middle">Accept</text>
-                    <rect x="20" y="410" width="200" height="50" rx="14" fill="rgba(255,255,255,.08)" />
-                    <text x="120" y="441" fontSize="13" fontWeight="500" fill="white" textAnchor="middle">View all orders →</text>
-                  </svg>
+                <div className="phone-screen phone-screen--image">
+                  <Image
+                    src="/mockup-screen.png"
+                    alt="CarryOn app mockup"
+                    fill
+                    className="phone-screen-image"
+                    sizes="(max-width: 768px) 260px, 280px"
+                  />
                 </div>
               </div>
             </div>
@@ -399,7 +375,7 @@ export default function DriverPage() {
             </h2>
             <div className="btn-row">
               <Link
-                href="/"
+                href="/#download-app"
                 className="btn btn-primary"
                 style={{ background: "white", color: "var(--navy)" }}
               >

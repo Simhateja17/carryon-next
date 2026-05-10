@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const ArrowRight = ({ className = "arrow" }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -100,7 +101,7 @@ export default function ContactPage() {
                 </svg>{" "}
                 Live chat in app
               </div>
-              <Link href="/" className="btn btn-secondary" style={{ marginTop: 24 }}>
+              <Link href="/#download-app" className="btn btn-secondary" style={{ marginTop: 24 }}>
                 Visit FAQ
                 <ArrowRight />
               </Link>
@@ -138,7 +139,7 @@ export default function ContactPage() {
                 </svg>{" "}
                 +91 1800 425 1111
               </div>
-              <Link href="/driver" className="btn btn-secondary" style={{ marginTop: 24 }}>
+              <Link href="/#download-app" className="btn btn-secondary" style={{ marginTop: 24 }}>
                 Driver Onboarding
                 <ArrowRight />
               </Link>
@@ -174,7 +175,8 @@ export default function ContactPage() {
                   style={{ background: "white", color: "var(--navy)" }}
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.5 12.5c0-2.6 2.1-3.8 2.2-3.9-1.2-1.7-3-2-3.7-2-1.6-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3-.5 7.6 1.2 10.1.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5.7-1 1-2 1-2.1 0-.1-2.5-1-2.5-3.6z" />
+                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
+                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
                   </svg>
                   App Store
                 </Link>
@@ -199,45 +201,14 @@ export default function ContactPage() {
               }}
             >
               <div className="phone-mock" style={{ margin: 0 }}>
-                <div
-                  className="phone-screen"
-                  style={{
-                    background: "linear-gradient(180deg, #DBEAFE 0%, #EFF6FF 100%)",
-                  }}
-                >
-                  <svg width="100%" height="100%" viewBox="0 0 240 480" fill="none">
-                    <text x="20" y="36" fontFamily="serif" fontSize="22" fontStyle="italic" fill="#0F172A">
-                      CarryOn
-                    </text>
-                    <rect x="20" y="60" width="200" height="200" rx="20" fill="white" stroke="#E2E8F0" />
-                    <path d="M50 160 Q100 130, 140 160 T200 180" stroke="#2563EB" strokeWidth="2.5" fill="none" strokeDasharray="3 3" />
-                    <circle cx="50" cy="160" r="6" fill="#2563EB" />
-                    <circle cx="200" cy="180" r="6" fill="#0F172A" />
-                    <text x="36" y="100" fontSize="10" fill="#64748B" letterSpacing="1">
-                      YOUR DELIVERY
-                    </text>
-                    <text x="36" y="125" fontFamily="serif" fontSize="16" fill="#0F172A">
-                      In transit &middot; 12 min
-                    </text>
-                    <rect x="20" y="280" width="200" height="56" rx="16" fill="white" stroke="#E2E8F0" />
-                    <text x="36" y="306" fontSize="10" fill="#64748B" letterSpacing="1">
-                      PICKUP
-                    </text>
-                    <text x="36" y="324" fontSize="11" fontWeight="600" fill="#0F172A">
-                      Andheri West
-                    </text>
-                    <rect x="20" y="346" width="200" height="56" rx="16" fill="white" stroke="#E2E8F0" />
-                    <text x="36" y="372" fontSize="10" fill="#64748B" letterSpacing="1">
-                      DROP
-                    </text>
-                    <text x="36" y="390" fontSize="11" fontWeight="600" fill="#0F172A">
-                      Lower Parel
-                    </text>
-                    <rect x="20" y="416" width="200" height="44" rx="22" fill="#2563EB" />
-                    <text x="120" y="442" fontSize="13" fontWeight="600" fill="white" textAnchor="middle">
-                      Track Delivery
-                    </text>
-                  </svg>
+                <div className="phone-screen phone-screen--image">
+                  <Image
+                    src="/mockup-screen.png"
+                    alt="CarryOn app mockup"
+                    fill
+                    className="phone-screen-image"
+                    sizes="(max-width: 768px) 260px, 280px"
+                  />
                 </div>
               </div>
             </div>
