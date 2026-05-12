@@ -135,9 +135,11 @@ export default function HomePage() {
               <div className="hero-art-bg" />
               <div className="hero-truck-wrap">
                 <Image
-                  src="/carryon-truck.png"
+                  src="/carryon-truck-cutout.png"
                   alt="CarryOn delivery truck"
                   fill
+                  sizes="(max-width: 900px) 92vw, 48vw"
+                  unoptimized
                   style={{ objectFit: "contain" }}
                   priority
                 />

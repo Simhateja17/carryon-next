@@ -355,7 +355,6 @@ h3.card-title {
   position: relative; aspect-ratio: 1.05/1;
   display: grid; place-items: center;
 }
-<<<<<<< HEAD
 .hero-art-bg {
   position: absolute; inset: 0;
   border-radius: 32px;
@@ -366,13 +365,11 @@ h3.card-title {
 .hero-truck-wrap {
   position: relative; width: 100%; aspect-ratio: 16/9;
 }
-=======
 .map-card {
   position: relative; width: 100%; aspect-ratio: 2676/2012;
   background: transparent;
 }
 .map-image { object-fit: contain; }
->>>>>>> ad292fd67ce31046eef85d7835f3f02692a1312a
 
 .float-card {
   position: absolute; background: var(--white);
