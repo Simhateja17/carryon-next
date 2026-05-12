@@ -37,7 +37,7 @@ const vehicles = [
     name: "Van 7-ft",
     description: "Small fridge, bike, washing machine",
     capacity: "Up to 500kg",
-    icon: "/veh-icon-3.png",
+    icon: "/van-7ft-icon.png",
   },
   {
     name: "Large Van 9-ft",
@@ -49,7 +49,7 @@ const vehicles = [
     name: "Mini Van",
     description: "Mid-size cargo, multiple items",
     capacity: "Up to 350kg",
-    icon: "/veh-icon-3.png",
+    icon: "/van-7ft-icon.png",
   },
   {
     name: "Pickup Truck",
@@ -413,19 +413,14 @@ export default function HomePage() {
               </div>
               <div className="app-store-row">
                 <Link href="/" className="store-btn">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
-                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
-                  </svg>
+                  <Image src="/app-store.png" alt="App Store" width={22} height={22} />
                   <div>
                     <small>Download on the</small>
                     <div className="name">App Store</div>
                   </div>
                 </Link>
                 <Link href="/" className="store-btn">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M3 3.5v17c0 .3.1.5.3.7l9.5-9.2L3 3.5z" />
-                  </svg>
+                  <Image src="/play-store.png" alt="Google Play" width={22} height={22} />
                   <div>
                     <small>Get it on</small>
                     <div className="name">Google Play</div>
@@ -452,19 +447,14 @@ export default function HomePage() {
               </div>
               <div className="app-store-row">
                 <Link href="/" className="store-btn">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
-                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
-                  </svg>
+                  <Image src="/app-store.png" alt="App Store" width={22} height={22} />
                   <div>
                     <small>Download on the</small>
                     <div className="name">App Store</div>
                   </div>
                 </Link>
                 <Link href="/" className="store-btn">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M3 3.5v17c0 .3.1.5.3.7l9.5-9.2L3 3.5z" />
-                  </svg>
+                  <Image src="/play-store.png" alt="Google Play" width={22} height={22} />
                   <div>
                     <small>Get it on</small>
                     <div className="name">Google Play</div>
@@ -596,16 +586,11 @@ export default function HomePage() {
               </p>
               <div className="dl-actions">
                 <Link href="/" className="btn btn-dark">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M15.4 2.1c-.7.8-1.1 1.8-1 2.9 1 .1 2-.3 2.7-1 .7-.8 1.1-1.8 1-2.9-1-.1-2 .3-2.7 1z" />
-                    <path d="M20.6 17.2c-.4.9-.7 1.4-1.3 2.3-.8 1.2-1.8 2.7-3.1 2.7-1.2 0-1.5-.8-3.1-.8-1.6 0-2 .8-3.2.8-1.3 0-2.3-1.4-3.1-2.6-2.1-3.4-2.3-7.4-1-9.4.9-1.4 2.3-2.2 3.7-2.2 1.4 0 2.3.8 3.4.8 1.1 0 1.8-.8 3.4-.8 1.2 0 2.5.7 3.4 1.8-3 1.7-2.5 5.9.5 7.4z" />
-                  </svg>
+                  <Image src="/app-store.png" alt="App Store" width={20} height={20} />
                   App Store
                 </Link>
                 <Link href="/" className="btn btn-dark">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M3 3.5v17c0 .3.1.5.3.7l9.5-9.2L3 3.5z" />
-                  </svg>
+                  <Image src="/play-store.png" alt="Google Play" width={20} height={20} />
                   Google Play
                 </Link>
                 <div className="qr" />
